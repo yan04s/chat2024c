@@ -26,7 +26,7 @@
     <div>
         <div class="flex flex-col justify-end h-80">
             <div ref="messagesContainer" class="p-4 overflow-y-auto max-h-fit">
-                <!-- <div
+                <div
                     v-for="message in messages"
                     :key="message.id"
                     class="flex items-center mb-2"
@@ -40,51 +40,7 @@
                     <div v-else class="p-2 mr-auto bg-gray-200 rounded-lg">
                         {{ message.text }}
                     </div>
-                </div> -->
-
-                <div
-                    v-for="message in messages"
-                    :key="message.id"
-                    class="flex items-center mb-2"
-                >
-                    <div
-                        v-if="message.sender_id === currentUser.id"
-                        class="relative flex items-center ml-auto"
-                    >
-                        <div class="relative ml-2">
-                            <button
-                                @click="toggleDropdown(message.id)"
-                                class="px-2 py-1 text-sm text-white bg-gray-700 rounded-lg"
-                            >
-                                ⋮
-                            </button>
-                            <div
-                                v-if="dropdownOpen === message.id"
-                                class="absolute right-0 z-10 w-24 mt-1 bg-white border rounded-lg shadow"
-                            >
-                                <button
-                                    @click="editMessage(message)"
-                                    class="w-full px-2 py-1 text-left text-gray-700 hover:bg-gray-100"
-                                >
-                                    Edit
-                                </button>
-                                <button
-                                    @click="deleteMessage(message.id)"
-                                    class="w-full px-2 py-1 text-left text-red-700 hover:bg-red-100"
-                                >
-                                    Delete
-                                </button>
-                            </div>
-                        </div>
-                        <div class="p-2 text-white bg-blue-500 rounded-lg">
-                            {{ message.text }}
-                        </div>
-                    </div>
-                    <div v-else class="p-2 mr-auto bg-gray-200 rounded-lg">
-                        {{ message.text }}
-                    </div>
                 </div>
-
             </div>
         </div>
         <div class="flex items-center">
@@ -129,34 +85,6 @@ const newMessage = ref("");
 const messagesContainer = ref(null);
 const isFriendTyping = ref(false);
 const isFriendTypingTimer = ref(null);
-
-const dropdownOpen = ref(null);
-
-const toggleDropdown = (messageId) => {
-    dropdownOpen.value = dropdownOpen.value === messageId ? null : messageId;
-};
-
-const editMessage = (message) => {
-    const newText = prompt("Edit your message:", message.text);
-    if (newText !== null && newText.trim() !== "") {
-        axios
-            .put(`/messages/${message.id}`, { text: newText })
-            .then((response) => {
-                message.text = response.data.text;
-            });
-    }
-};
-
-const deleteMessage = (messageId) => {
-    if (confirm("Are you sure you want to delete this message?")) {
-        axios.delete(`/messages/${messageId}`).then(() => {
-            messages.value = messages.value.filter(
-                (message) => message.id !== messageId
-            );
-        });
-    }
-};
-
 
 watch(
     messages,
