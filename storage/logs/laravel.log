@@ -1,0 +1,21 @@
+[2024-12-24 09:55:08] local.ERROR: Failed to listen on "tcp://0.0.0.0:8080": Address already in use (EADDRINUSE) {"exception":"[object] (RuntimeException(code: 98): Failed to listen on \"tcp://0.0.0.0:8080\": Address already in use (EADDRINUSE) at /var/www/chat.sxags.com/vendor/react/socket/src/TcpServer.php:188)
+[stacktrace]
+#0 /var/www/chat.sxags.com/vendor/react/socket/src/SocketServer.php(65): React\\Socket\\TcpServer->__construct()
+#1 /var/www/chat.sxags.com/vendor/laravel/reverb/src/Servers/Reverb/Factory.php(60): React\\Socket\\SocketServer->__construct()
+#2 /var/www/chat.sxags.com/vendor/laravel/reverb/src/Servers/Reverb/Console/Commands/StartServer.php(57): Laravel\\Reverb\\Servers\\Reverb\\Factory::make()
+#3 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Reverb\\Servers\\Reverb\\Console\\Commands\\StartServer->handle()
+#4 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#5 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
+#6 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
+#7 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Container\\BoundMethod::call()
+#8 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Console/Command.php(213): Illuminate\\Container\\Container->call()
+#9 /var/www/chat.sxags.com/vendor/symfony/console/Command/Command.php(279): Illuminate\\Console\\Command->execute()
+#10 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run()
+#11 /var/www/chat.sxags.com/vendor/symfony/console/Application.php(1094): Illuminate\\Console\\Command->run()
+#12 /var/www/chat.sxags.com/vendor/symfony/console/Application.php(342): Symfony\\Component\\Console\\Application->doRunCommand()
+#13 /var/www/chat.sxags.com/vendor/symfony/console/Application.php(193): Symfony\\Component\\Console\\Application->doRun()
+#14 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
+#15 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1205): Illuminate\\Foundation\\Console\\Kernel->handle()
+#16 /var/www/chat.sxags.com/artisan(13): Illuminate\\Foundation\\Application->handleCommand()
+#17 {main}
+"} 

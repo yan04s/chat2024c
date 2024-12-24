@@ -1,0 +1,10 @@
+  2024-12-24 10:09:05 App\Events\MessageSent ......................... RUNNING
+  2024-12-24 10:09:05 App\Events\MessageSent ................... 167.89ms DONE
+  2024-12-24 10:09:11 App\Events\MessageSent ......................... RUNNING
+  2024-12-24 10:09:11 App\Events\MessageSent .................... 80.72ms DONE
+  2024-12-24 10:09:20 App\Events\MessageSent ......................... RUNNING
+  2024-12-24 10:09:20 App\Events\MessageSent .................... 81.53ms DONE
+  2024-12-24 10:13:02 App\Events\MessageSent ......................... RUNNING
+  2024-12-24 10:13:02 App\Events\MessageSent ................... 108.58ms DONE
+  2024-12-24 10:13:05 App\Events\MessageSent ......................... RUNNING
+  2024-12-24 10:13:06 App\Events\MessageSent .................... 81.45ms DONE

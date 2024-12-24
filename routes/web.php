@@ -55,13 +55,13 @@ Route::post('/messages/{friend}', function (User $friend) {
     return  $message;
 });
 
-// Route::middleware('auth')->group(function () {
-//     // Edit message
-//     Route::post('/messages/edit/{message}', [MessageController::class, 'update'])->name('messages.update');
+Route::middleware('auth')->group(function () {
+    // Edit message
+    Route::post('/messages/edit/{message}', [MessageController::class, 'update'])->name('messages.update');
 
-//     // Delete message
-//     Route::delete('/messages/delete/{message}', [MessageController::class, 'destroy'])->name('messages.destroy');
-// });
+    // Delete message
+    Route::delete('/messages/delete/{message}', [MessageController::class, 'destroy'])->name('messages.destroy');
+});
 
 
 require __DIR__.'/auth.php';
