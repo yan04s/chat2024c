@@ -1,21 +1,115 @@
-[2024-12-24 09:55:08] local.ERROR: Failed to listen on "tcp://0.0.0.0:8080": Address already in use (EADDRINUSE) {"exception":"[object] (RuntimeException(code: 98): Failed to listen on \"tcp://0.0.0.0:8080\": Address already in use (EADDRINUSE) at /var/www/chat.sxags.com/vendor/react/socket/src/TcpServer.php:188)
+[2025-01-09 13:20:06] local.ERROR: json_decode(): Argument #1 ($json) must be of type string, array given {"userId":1,"exception":"[object] (TypeError(code: 0): json_decode(): Argument #1 ($json) must be of type string, array given at /var/www/chat.sxags.com/app/Http/Controllers/MessageController.php:59)
 [stacktrace]
-#0 /var/www/chat.sxags.com/vendor/react/socket/src/SocketServer.php(65): React\\Socket\\TcpServer->__construct()
-#1 /var/www/chat.sxags.com/vendor/laravel/reverb/src/Servers/Reverb/Factory.php(60): React\\Socket\\SocketServer->__construct()
-#2 /var/www/chat.sxags.com/vendor/laravel/reverb/src/Servers/Reverb/Console/Commands/StartServer.php(57): Laravel\\Reverb\\Servers\\Reverb\\Factory::make()
-#3 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(36): Laravel\\Reverb\\Servers\\Reverb\\Console\\Commands\\StartServer->handle()
-#4 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/Util.php(43): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
-#5 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(95): Illuminate\\Container\\Util::unwrapIfClosure()
-#6 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/BoundMethod.php(35): Illuminate\\Container\\BoundMethod::callBoundMethod()
-#7 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\\Container\\BoundMethod::call()
-#8 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Console/Command.php(213): Illuminate\\Container\\Container->call()
-#9 /var/www/chat.sxags.com/vendor/symfony/console/Command/Command.php(279): Illuminate\\Console\\Command->execute()
-#10 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Console/Command.php(182): Symfony\\Component\\Console\\Command\\Command->run()
-#11 /var/www/chat.sxags.com/vendor/symfony/console/Application.php(1094): Illuminate\\Console\\Command->run()
-#12 /var/www/chat.sxags.com/vendor/symfony/console/Application.php(342): Symfony\\Component\\Console\\Application->doRunCommand()
-#13 /var/www/chat.sxags.com/vendor/symfony/console/Application.php(193): Symfony\\Component\\Console\\Application->doRun()
-#14 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(198): Symfony\\Component\\Console\\Application->run()
-#15 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1205): Illuminate\\Foundation\\Console\\Kernel->handle()
-#16 /var/www/chat.sxags.com/artisan(13): Illuminate\\Foundation\\Application->handleCommand()
-#17 {main}
+#0 /var/www/chat.sxags.com/app/Http/Controllers/MessageController.php(59): json_decode()
+#1 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/ControllerDispatcher.php(47): App\\Http\\Controllers\\MessageController->destroy()
+#2 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(266): Illuminate\\Routing\\ControllerDispatcher->dispatch()
+#3 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(212): Illuminate\\Routing\\Route->runController()
+#4 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(808): Illuminate\\Routing\\Route->run()
+#5 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}()
+#6 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Middleware/SubstituteBindings.php(51): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#7 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle()
+#8 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Auth/Middleware/Authenticate.php(64): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#9 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Auth\\Middleware\\Authenticate->handle()
+#10 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/VerifyCsrfToken.php(88): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#11 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle()
+#12 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/View/Middleware/ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#13 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle()
+#14 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Session/Middleware/StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest()
+#16 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Session\\Middleware\\StartSession->handle()
+#17 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle()
+#19 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Cookie/Middleware/EncryptCookies.php(75): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle()
+#21 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(807): Illuminate\\Pipeline\\Pipeline->then()
+#23 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack()
+#24 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(750): Illuminate\\Routing\\Router->runRoute()
+#25 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute()
+#26 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(201): Illuminate\\Routing\\Router->dispatch()
+#27 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#28 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#30 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#31 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#32 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#33 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#34 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#35 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#36 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#37 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#38 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#39 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#40 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#41 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#42 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#43 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#44 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#45 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then()
+#46 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#47 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1190): Illuminate\\Foundation\\Http\\Kernel->handle()
+#48 /var/www/chat.sxags.com/public/index.php(17): Illuminate\\Foundation\\Application->handleRequest()
+#49 {main}
 "} 
+[2025-01-09 13:28:03] local.INFO:   
+[2025-01-09 13:28:03] local.INFO:   
+[2025-01-09 13:28:03] local.INFO:   
+[2025-01-09 13:29:13] local.INFO:   
+[2025-01-09 13:29:13] local.INFO:   
+[2025-01-09 13:29:13] local.INFO:   
+[2025-01-09 13:29:30] local.INFO: false  
+[2025-01-09 13:29:30] local.INFO: false  
+[2025-01-09 13:29:30] local.INFO: false  
+[2025-01-09 13:31:28] local.INFO: "chat_images\/Q3F4cEjG33M1Tb1omdJapulzWvTokzLDNs41HQNM.jpg "  
+[2025-01-09 13:31:28] local.INFO: "chat_images\/L21g5VHpi6SahTm34mzUEqH2UiYNeWhBgIALNrYA.jpg "  
+[2025-01-09 13:31:28] local.INFO: "chat_images\/aBYE6LQoLiVQwODBTOfePSbTFPWFOTXayR1w1cY9.gif "  
+[2025-01-09 13:32:20] local.INFO: chat_images/Q3F4cEjG33M1Tb1omdJapulzWvTokzLDNs41HQNM.jpgfalse  
+[2025-01-09 13:32:20] local.INFO: chat_images/L21g5VHpi6SahTm34mzUEqH2UiYNeWhBgIALNrYA.jpgfalse  
+[2025-01-09 13:32:20] local.INFO: chat_images/aBYE6LQoLiVQwODBTOfePSbTFPWFOTXayR1w1cY9.giffalse  
+[2025-01-09 13:33:16] local.INFO: chat_images/GsOzSVfZLM8yxrIaNO7ba4l74gC1kkvrW1ALTWmI.jpgfalse  
+[2025-01-09 13:33:57] local.INFO: chat_images/nRvCqF2a5gnKBxuTzQuWYaZ4zkw1rbFH54VYmJWN.jpgfalse  
+[2025-01-09 13:34:16] local.INFO: chat_images/Q3F4cEjG33M1Tb1omdJapulzWvTokzLDNs41HQNM.jpgfalse  
+[2025-01-09 13:34:16] local.INFO: chat_images/L21g5VHpi6SahTm34mzUEqH2UiYNeWhBgIALNrYA.jpgfalse  
+[2025-01-09 13:34:16] local.INFO: chat_images/aBYE6LQoLiVQwODBTOfePSbTFPWFOTXayR1w1cY9.giffalse  
+[2025-01-09 13:46:43] local.ERROR: syntax error, unexpected identifier "exists", expecting ")" {"exception":"[object] (ParseError(code: 0): syntax error, unexpected identifier \"exists\", expecting \")\" at /var/www/chat.sxags.com/app/Http/Controllers/MessageController.php:65)
+[stacktrace]
+#0 /var/www/chat.sxags.com/vendor/composer/ClassLoader.php(427): Composer\\Autoload\\{closure}()
+#1 [internal function]: Composer\\Autoload\\ClassLoader->loadClass()
+#2 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1117): is_a()
+#3 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1054): Illuminate\\Routing\\Route->controllerMiddleware()
+#4 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(820): Illuminate\\Routing\\Route->gatherMiddleware()
+#5 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(802): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#6 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(786): Illuminate\\Routing\\Router->runRouteWithinStack()
+#7 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(750): Illuminate\\Routing\\Router->runRoute()
+#8 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Routing/Router.php(739): Illuminate\\Routing\\Router->dispatchToRoute()
+#9 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(201): Illuminate\\Routing\\Router->dispatch()
+#10 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(144): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#11 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#12 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#13 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#14 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(51): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#16 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#17 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\ValidatePostSize->handle()
+#19 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(110): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#20 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#21 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#23 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#25 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/InvokeDeferredCallbacks.php(22): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(183): Illuminate\\Foundation\\Http\\Middleware\\InvokeDeferredCallbacks->handle()
+#27 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(119): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then()
+#29 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#30 /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(1190): Illuminate\\Foundation\\Http\\Kernel->handle()
+#31 /var/www/chat.sxags.com/public/index.php(17): Illuminate\\Foundation\\Application->handleRequest()
+#32 {main}
+"} 
+[2025-01-09 14:23:11] local.INFO: chat_images/Q3F4cEjG33M1Tb1omdJapulzWvTokzLDNs41HQNM.jpgtrue  
+[2025-01-09 14:23:11] local.INFO: chat_images/L21g5VHpi6SahTm34mzUEqH2UiYNeWhBgIALNrYA.jpgtrue  
+[2025-01-09 14:23:11] local.INFO: chat_images/aBYE6LQoLiVQwODBTOfePSbTFPWFOTXayR1w1cY9.giftrue  
+[2025-01-09 14:26:10] local.INFO: true  
+[2025-01-09 14:26:10] local.INFO: true  
+[2025-01-09 14:26:10] local.INFO: true  
