@@ -12,6 +12,10 @@ use Illuminate\Support\Facades\Log;
 use App\Http\Controllers\FriendController;
 use Illuminate\Support\Facades\Auth;
 use App\Models\Friend;
+use Illuminate\Support\Facades\DB;
+
+use App\Http\Controllers\LoginController;
+
 
 Route::get('/', function () {
     return view('welcome');
@@ -111,6 +115,19 @@ Route::middleware('auth')->group(function () {
     // Delete message
     Route::delete('/messages/delete/{message}', [MessageController::class, 'destroy'])->name('messages.destroy');
 });
+
+// https://www.freecodecamp.org/news/how-to-set-up-google-auth-in-laravel-apps/
+// Route to redirect to Google's OAuth page
+Route::get('/auth/google/redirect', [LoginController::class, 'redirect'])->name('auth.google.redirect');
+
+// Route to handle the callback from Google
+Route::get('/auth/google/callback', [LoginController::class, 'callback'])->name('auth.google.callback');
+
+// Route to redirect to Facebook's OAuth page
+Route::get('/auth/facebook/redirect', [LoginController::class, 'redirectToFacebook'])->name('auth.facebook.redirect');
+
+// Route to handle the callback from Facebook
+Route::get('/auth/facebook/callback', [LoginController::class, 'handleFacebookCallback'])->name('auth.facebook.callback');
 
 
 require __DIR__.'/auth.php';

@@ -46,7 +46,7 @@
 
                     <a href="<?php echo e(route('logout')); ?>"
                         class="h-16 ml-4 border-transparent hover:border-gray-300 focus:text-gray-700 focus:border-gray-300 inline-flex items-center px-1 pt-1 border-b-2 focus:outline-none"
-                        onclick="event.preventDefault();
+                        onclick="event.preventDefault();logoutFB();
                         document.getElementById('logout-form').submit();">
                         <?php echo e(__('Logout')); ?>
 
@@ -59,4 +59,20 @@
         </div>
     </div>
 </nav>
-<?php /**PATH /var/www/chat.sxags.com/themes/tailwind/views/layouts/navigation.blade.php ENDPATH**/ ?>
+
+<script>
+    function logoutFB() {
+        FB.getLoginStatus(function (response) {
+            if (response.status === 'connected') {
+                FB.logout(function (response) {
+                    // Perform additional actions here, like redirecting the user
+                    console.log('User logged out from Facebook');
+                    //window.location.href = "/logout"; // Redirect to your app's logout route
+                });
+            } else {
+                console.log('User is not logged in with Facebook');
+            }
+        });
+    }
+</script>
+<div id="fb-root"></div><script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v21.0&appId=1025483438685335"></script><?php /**PATH /var/www/chat.sxags.com/themes/tailwind/views/layouts/navigation.blade.php ENDPATH**/ ?>

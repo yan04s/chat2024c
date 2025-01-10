@@ -740,6 +740,18 @@
         'channel' => NULL,
       ),
     ),
+    'google' => 
+    array (
+      'client_id' => '48309806360-lmcaq8b3avi42r4g6ddrf868vkc1r2iq.apps.googleusercontent.com',
+      'client_secret' => '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',
+      'redirect' => 'https://chat.sxags.com/auth/google/callback',
+    ),
+    'facebook' => 
+    array (
+      'client_id' => '1025483438685335',
+      'client_secret' => 'eb9de577ec79e5fee704beeec4753a62',
+      'redirect' => 'https://chat.sxags.com/auth/facebook/callback',
+    ),
   ),
   'session' => 
   array (

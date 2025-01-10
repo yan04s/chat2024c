@@ -964,3 +964,11 @@
   2025-01-09 14:53:40 App\Events\MessageDeleted ................. 80.92ms DONE
   2025-01-09 14:53:55 App\Events\MessageDeleted ...................... RUNNING
   2025-01-09 14:53:55 App\Events\MessageDeleted ................. 22.41ms DONE
+  2025-01-09 15:00:46 App\Events\MessageSent ......................... RUNNING
+  2025-01-09 15:00:47 App\Events\MessageSent ................... 127.13ms DONE
+  2025-01-09 15:02:05 App\Events\MessageSent ......................... RUNNING
+  2025-01-09 15:02:05 App\Events\MessageSent .................... 85.18ms DONE
+  2025-01-10 12:25:50 App\Events\MessageSent ......................... RUNNING
+  2025-01-10 12:25:50 App\Events\MessageSent ................... 117.82ms DONE
+  2025-01-10 12:38:24 App\Events\MessageSent ......................... RUNNING
+  2025-01-10 12:38:24 App\Events\MessageSent ................... 111.33ms DONE

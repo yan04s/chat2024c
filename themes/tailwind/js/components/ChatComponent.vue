@@ -76,7 +76,7 @@
                             <!-- Display images if available -->
                             <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap">
                                 <div v-for="image in message.images" :key="image" class="mt-2">
-                                    <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg">
+                                    <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg" @click="openImage(`/storage/${image}`)">
                                 </div>
                             </div>
 
@@ -89,7 +89,7 @@
                                 </button>
                                 <div
                                     v-if="dropdownOpen === message.id"
-                                    class="absolute right-0 z-10 w-24 mt-1 bg-white border rounded-lg shadow"
+                                    class="absolute right-0 z-10 w-24 mt-1 bg-white border rounded-lg shadow" style="top:-4.5rem;"
                                 >
                                     <button
                                         @click="editMessage(message)"
@@ -114,7 +114,7 @@
                             <!-- Display images if available -->
                             <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap">
                                 <div v-for="image in message.images" :key="image" class="mt-2">
-                                    <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg">
+                                    <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg image" @click="openImage(`/storage/${image}`)">
                                 </div>
                             </div>
                         </div>
@@ -124,13 +124,38 @@
             </div>
             <div class="row"><!--flex items-center-->
                 <div class="row flex items-center pb-2">
+                    <div class="relative inline-block">
+                        <div
+                            class="px-2 py-1 text-sm text-white rounded-lg" 
+                            @click="toggleDropdownPlusButton(event)"
+                        >
+                            <svg class="x1lliihq x1tzjh5l x1k90msu x11xpdln x1qfuztq xsrhx6k x7p49u4" height="20px" viewBox="0 0 24 24" width="20px"><g fill-rule="evenodd"><polygon fill="none" points="-6,30 30,30 30,-6 -6,-6 "></polygon><path d="m18,11l-5,0l0,-5c0,-0.552 -0.448,-1 -1,-1c-0.5525,0 -1,0.448 -1,1l0,5l-5,0c-0.5525,0 -1,0.448 -1,1c0,0.552 0.4475,1 1,1l5,0l0,5c0,0.552 0.4475,1 1,1c0.552,0 1,-0.448 1,-1l0,-5l5,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1m-6,13c-6.6275,0 -12,-5.3725 -12,-12c0,-6.6275 5.3725,-12 12,-12c6.627,0 12,5.3725 12,12c0,6.6275 -5.373,12 -12,12" fill="#3982F7"></path></g></svg>
+                        </div>
+                        <div
+                            class="absolute z-10 bg-white border rounded-lg shadow hidden"
+                            id="dropdownMenu"
+                            style="width: 10rem;top: -2.5rem;" 
+                        ><!-- Adjust the value based on the dropdown height -->
+                            <label 
+                                for="fileUpload" class="flex w-full px-2 py-1 text-left text-black hover:bg-gray-100"
+                            >
+                                <svg viewBox="0 0 12 13" width="20" height="20" fill="currentColor" class="xfx01vb x1lliihq x1tzjh5l x1k90msu x2h7rmj x1qfuztq" style="color: #3982F7;"><g fill-rule="evenodd" transform="translate(-450 -1073)"><g><path d="M99.825 918.322a2.55 2.55 0 0 1 .18-.712l-.489.043a1.601 1.601 0 0 0-.892.345 1.535 1.535 0 0 0-.557 1.321l.636 7.275c.01.12.186.123.199.003l.923-8.275zm4.67 1.591a1 1 0 1 1-1.991.175 1 1 0 0 1 1.991-.175m3.099 1.9a.422.422 0 0 0-.597-.05l-1.975 1.69a.288.288 0 0 0-.032.404l.442.526a.397.397 0 0 1-.606.51l-1.323-1.576a.421.421 0 0 0-.58-.063l-1.856 1.41-.265 2.246c-.031.357.173 1.16.53 1.19l6.345.397c.171.014.395-.02.529-.132.132-.111.38-.49.396-.661l.405-4.239-1.413-1.652z" transform="translate(352 156.5)"></path><path fill-rule="nonzero" d="m107.589 928.97-6.092-.532a1.56 1.56 0 0 1-1.415-1.687l.728-8.328a1.56 1.56 0 0 1 1.687-1.416l6.091.533a1.56 1.56 0 0 1 1.416 1.687l-.728 8.328a1.56 1.56 0 0 1-1.687 1.415zm.087-.996.06.002a.561.561 0 0 0 .544-.508l.728-8.328a.56.56 0 0 0-.507-.604l-6.09-.533a.56.56 0 0 0-.605.507l-.728 8.328a.56.56 0 0 0 .506.604l6.092.532z" transform="translate(352 156.5)"></path></g></g></svg>
+                                &nbsp; Upload Files 
+                            </label>
+                            <!--<button
+                                class="w-full px-2 py-1 text-left text-red-700 hover:bg-red-100"
+                            >
+                                Voice Message
+                            </button>-->
+                        </div>
+                    </div>
                     <input
                         type="text"
                         v-model="newMessage"
                         @keydown="sendTypingEvent"
                         @keyup.enter="sendMessage"
                         placeholder="Type a message..."
-                        class="flex-1 px-2 py-1 border rounded-lg"
+                        class="flex-1 px-2 py-1 border rounded-lg ml-2"
                     />
                     <button
                         @click="sendMessage"
@@ -139,8 +164,8 @@
                         Send
                     </button>
                 </div>
-                <div class="row">
-                    <input type="file" @change="handleImageUpload" multiple accept="image/*" class="ml-2 attachment" />
+                <div class="row" hidden>
+                    <input id="fileUpload" type="file" @change="handleImageUpload" multiple accept="image/*" class="ml-2 attachment" />
                 </div>
             </div>
             <div v-if="imagesPreview.length" class="mt-2">
@@ -183,6 +208,17 @@ const isFriendTypingTimer = ref(null);
 const imagesPreview = ref([]);
 const imagesToUpload = ref([]);
 const dropdownOpen = ref(null);
+
+const toggleDropdownPlusButton = (event) => {
+    const dropdown = document.getElementById("dropdownMenu");
+    dropdown.classList.toggle("hidden");
+}
+
+const openImage = (imagePath) => {
+    const windowProperties =
+        "toolbar=yes,location=yes,status=no,menubar=yes,scrollbars=yes,resizable=yes,width=900,height=600";
+    window.open(imagePath, "targetwindow", windowProperties);
+};
 
 const toggleDropdown = (messageId) => {
     dropdownOpen.value = dropdownOpen.value === messageId ? null : messageId;
