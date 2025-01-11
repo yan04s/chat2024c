@@ -110,9 +110,8 @@
 </nav> -->
 <!-- Navbar -->
 
-
-    
 <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
+<!-- npm install @headlessui/vue @heroicons/vue -->
 <div class="bg-blue-500">
 	<nav class="relative px-4 py-4 flex justify-between items-center bg-white">
 		<a class="text-3xl font-bold leading-none items-center flex" style="gap: 0.5rem;" href="{{ route('dashboard') }}">
