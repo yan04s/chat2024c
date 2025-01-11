@@ -13,7 +13,7 @@
         <?php echo app('Illuminate\Foundation\Vite')(['themes/tailwind/css/app.css', 'themes/tailwind/js/app.js'], 'tailwind'); ?>
     </head>
     <body class="font-sans antialiased">
-        <div id="app" class="min-h-screen bg-gray-100">
+        <div id="app" class="min-h-screen bg-gray-100 row">
             <?php echo $__env->make('layouts.navigation', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
             <!-- Page Heading -->

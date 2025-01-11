@@ -106,7 +106,7 @@
 <style>
     .btn {
     width: 100%;
-    padding: 8px;
+    padding: 8px 0;
     height: 40px;
     border: none;
     border-radius: 4px;
@@ -115,7 +115,7 @@
     display: inline-block;
     /* font-family: Graphik LCG Web, Graphik Arabic Web Regular, -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, Lucida Grande, Sans-Serif; */
     font-family: 'Roboto', 'Freight Sans LF Pro', Helvetica, Arial, 'Lucida Grande', sans-serif;
-    font-size: 14px;
+    font-size: 0.8rem;
     line-height: 25px;
     text-decoration: none; /* remove underline from anchors */
     }

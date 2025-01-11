@@ -13,7 +13,7 @@
         @vite(['themes/tailwind/css/app.css', 'themes/tailwind/js/app.js'], 'tailwind')
     </head>
     <body class="font-sans antialiased">
-        <div id="app" class="min-h-screen bg-gray-100">
+        <div id="app" class="min-h-screen bg-gray-100 row">
             @include('layouts.navigation')
 
             <!-- Page Heading -->

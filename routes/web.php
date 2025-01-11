@@ -131,3 +131,7 @@ Route::get('/auth/facebook/callback', [LoginController::class, 'handleFacebookCa
 
 
 require __DIR__.'/auth.php';
+
+Route::get('/nav', function () {
+    return view('layouts.navTest');
+});

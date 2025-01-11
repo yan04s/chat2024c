@@ -44,10 +44,48 @@
 </style>
 
 <template>
+    <TransitionRoot as="template" :show="open">
+        <Dialog class="relative z-10" @close="open = false">
+        <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="ease-in duration-200" leave-from="opacity-100" leave-to="opacity-0">
+            <div class="fixed inset-0 bg-gray-500/75 transition-opacity" />
+        </TransitionChild>
+
+        <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+            <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+            <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95" enter-to="opacity-100 translate-y-0 sm:scale-100" leave="ease-in duration-200" leave-from="opacity-100 translate-y-0 sm:scale-100" leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95">
+                <DialogPanel class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                    <div class="sm:flex sm:items-start">
+                    <div class="mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10">
+                        <ExclamationTriangleIcon class="size-6 text-red-600" aria-hidden="true" />
+                    </div>
+                    <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
+                        <DialogTitle as="h3" class="text-base font-semibold text-gray-900">Edit Message</DialogTitle><!--Deactivate account-->
+                        <div class="mt-2">
+                        <!-- <p class="text-sm text-gray-500">Are you sure you want to deactivate your account? All of your data will be permanently removed. This action cannot be undone.</p> -->
+                        <textarea
+                        v-model="newText"
+                        class="w-full border p-2 rounded-lg"
+                        rows="4" cols="50" 
+                        ></textarea>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                    <button type="button" class="inline-flex w-full justify-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 sm:ml-3 sm:w-auto" @click="saveEditedMessage">Save</button><!--Deactivate-->
+                    <button type="button" class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto" @click="open = false" ref="cancelButtonRef">Cancel</button>
+                </div>
+                </DialogPanel>
+            </TransitionChild>
+            </div>
+        </div>
+        </Dialog>
+    </TransitionRoot>
     <div class="row">
         <div class="col-12">
             <div class="row flex flex-col justify-end h-80">
-                <div ref="messagesContainer" class="p-4 overflow-y-auto max-h-fit">
+                <div ref="messagesContainer" class="p-4 overflow-y-auto max-h-fit col-12">
                     <!-- <div
                         v-for="message in messages"
                         :key="message.id"
@@ -67,29 +105,24 @@
                     <div
                         v-for="message in messages"
                         :key="message.id"
-                        class="flex items-center mb-2"
+                        class="flex items-center mb-2 row"
                     >
                         <div
                             v-if="message.sender_id === currentUser.id"
-                            class="relative flex flex-col items-center ml-auto"
+                            class="relative flex flex-col items-center ml-auto col-12" style="float: right;"
                         >
-                            <!-- Display images if available -->
-                            <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap">
-                                <div v-for="image in message.images" :key="image" class="mt-2">
-                                    <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg" @click="openImage(`/storage/${image}`)">
-                                </div>
-                            </div>
-
-                            <div class="relative top-7 mr-2" style="right: 52%;">
+                            <div class="absolute left-0 top-1/2 transform -translate-y-1/2" style="left: -2.8vw;">
                                 <button
-                                    @click="toggleDropdown(message.id)"
+                                    @click="toggleDropdown(message.id, $event)"
                                     class="px-2 py-1 text-sm text-white bg-gray-700 rounded-lg"
+                                    id="dropdownED"
                                 >
                                     ⋮
                                 </button>
                                 <div
                                     v-if="dropdownOpen === message.id"
-                                    class="absolute right-0 z-10 w-24 mt-1 bg-white border rounded-lg shadow" style="top:-4.5rem;"
+                                    class="absolute z-10 w-24 mt-1 bg-white border rounded-lg shadow" 
+                                    id="dropdownEDMenu"
                                 >
                                     <button
                                         @click="editMessage(message)"
@@ -105,15 +138,21 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="ml-2 p-2 text-white bg-blue-500 rounded-lg" style="width: 15rem;">
+                            <!-- Display images if available -->
+                            <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap row">
+                                <div v-for="image in message.images" :key="image" class="mt-2">
+                                    <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg" @click="openImage(`/storage/${image}`)">
+                                </div>
+                            </div>
+                            <div class="ml-2 p-2 text-white bg-blue-500 rounded-lg row" style="width: 100%;">
                                 <p>{{ message.text }}</p>
                             </div>
                         </div>
-                        <div v-else class="p-2 mr-auto bg-gray-200 rounded-lg" style="width: 15rem;">
+                        <div v-else class="p-2 mr-auto bg-gray-200 rounded-lg row" style="width: 15rem;float: left;">
                             {{ message.text }}
                             <!-- Display images if available -->
-                            <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap">
-                                <div v-for="image in message.images" :key="image" class="mt-2">
+                            <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap row">
+                                <div v-for="image in message.images" :key="image" class="mt-2 col-2">
                                     <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg image" @click="openImage(`/storage/${image}`)">
                                 </div>
                             </div>
@@ -127,6 +166,7 @@
                     <div class="relative inline-block">
                         <div
                             class="px-2 py-1 text-sm text-white rounded-lg" 
+                            id="toggleButton" 
                             @click="toggleDropdownPlusButton(event)"
                         >
                             <svg class="x1lliihq x1tzjh5l x1k90msu x11xpdln x1qfuztq xsrhx6k x7p49u4" height="20px" viewBox="0 0 24 24" width="20px"><g fill-rule="evenodd"><polygon fill="none" points="-6,30 30,30 30,-6 -6,-6 "></polygon><path d="m18,11l-5,0l0,-5c0,-0.552 -0.448,-1 -1,-1c-0.5525,0 -1,0.448 -1,1l0,5l-5,0c-0.5525,0 -1,0.448 -1,1c0,0.552 0.4475,1 1,1l5,0l0,5c0,0.552 0.4475,1 1,1c0.552,0 1,-0.448 1,-1l0,-5l5,0c0.552,0 1,-0.448 1,-1c0,-0.552 -0.448,-1 -1,-1m-6,13c-6.6275,0 -12,-5.3725 -12,-12c0,-6.6275 5.3725,-12 12,-12c6.627,0 12,5.3725 12,12c0,6.6275 -5.373,12 -12,12" fill="#3982F7"></path></g></svg>
@@ -187,6 +227,12 @@
 <script setup>
 import axios from "axios";
 import { nextTick, onMounted, ref, watch } from "vue";
+import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { ExclamationTriangleIcon } from '@heroicons/vue/24/outline'
+
+const open = ref(false);
+const editMessageData = ref(null);
+const newText = ref(null);
 
 const props = defineProps({
     friend: {
@@ -213,6 +259,19 @@ const toggleDropdownPlusButton = (event) => {
     const dropdown = document.getElementById("dropdownMenu");
     dropdown.classList.toggle("hidden");
 }
+// Function to close dropdown if clicked outside
+const closeDropdownOnOutsideClick = (event) => {
+    const dropdown = document.getElementById("dropdownMenu");
+    const toggleButton = document.getElementById("toggleButton");
+
+    // Check if the click target is not the dropdown or toggle button
+    if (!dropdown.contains(event.target) && !toggleButton.contains(event.target)) {
+        dropdown.classList.add("hidden");
+    }
+};
+// Add a click event listener to the document
+document.addEventListener("click", closeDropdownOnOutsideClick);
+
 
 const openImage = (imagePath) => {
     const windowProperties =
@@ -220,20 +279,52 @@ const openImage = (imagePath) => {
     window.open(imagePath, "targetwindow", windowProperties);
 };
 
-const toggleDropdown = (messageId) => {
+const toggleDropdown = (messageId, event) => {
+    event.stopPropagation(); // Prevent the click event from bubbling up
     dropdownOpen.value = dropdownOpen.value === messageId ? null : messageId;
 };
+// Close the dropdown if clicked outside
+const closeDropdown = (event) => {
+  const dropdown = document.getElementById('dropdownED');
+  const menu = document.getElementById('dropdownEDMenu');
+  
+  // Check if the click was outside the dropdown button or menu
+  if (dropdown && menu && !dropdown.contains(event.target) && !menu.contains(event.target)) {
+    dropdownOpen.value = null;
+  }
+};
+document.addEventListener('click', closeDropdown);
 
 const editMessage = (message) => {
-    const newText = prompt("Edit your message:", message.text);
-    if (newText !== null && newText.trim() !== "") {
-        axios
-            .post(`/messages/edit/${message.id}`, { text: newText })
-            .then((response) => {
-                message.text = response.data.text;
-            });
+    editMessageData.value = message;
+    newText.value = message.text; // Pre-fill the textarea with the current message text
+    open.value = true; // Open the modal
+};
+const saveEditedMessage = () => {
+    if (
+    newText.value !== null &&
+    newText.value.trim() !== ""
+    ) {
+    axios
+        .post(`/messages/edit/${editMessageData.value.id}`, {
+        text: newText.value,
+        })
+        .then((response) => {
+            editMessageData.value.text = response.data.text; // Update the message text
+        open.value = false; // Close the modal
+        });
     }
 };
+// const editMessage = (message) => {
+//     const newText = prompt("Edit your message:", message.text);
+//     if (newText !== null && newText.trim() !== "") {
+//         axios
+//             .post(`/messages/edit/${message.id}`, { text: newText })
+//             .then((response) => {
+//                 message.text = response.data.text;
+//             });
+//     }
+// };
 
 const deleteMessage = (messageId) => {
     if (confirm("Are you sure you want to delete this message?")) {

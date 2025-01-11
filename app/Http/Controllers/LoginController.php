@@ -78,6 +78,7 @@ class LoginController extends Controller
             $user = User::create([
                 'name' => $facebookUser->getName(),
                 'email' => $facebookUser->getEmail(),
+                'password' => bcrypt(Str::random(16)),
                 'facebook_id' => $facebookUser->getId(),
                 'avatar' => $facebookUser->getAvatar(),
                 // Add any other fields you need
