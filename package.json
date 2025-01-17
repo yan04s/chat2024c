@@ -25,6 +25,7 @@
         "@heroicons/vue": "^2.2.0",
         "flatpickr": "^4.6.13",
         "laravel-echo": "^1.17.1",
+        "moment-timezone": "^0.5.46",
         "pusher-js": "^8.4.0-rc2"
     }
 }

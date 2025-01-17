@@ -377,6 +377,7 @@ import { nextTick, onMounted, ref, watch, computed } from "vue";
 import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { ExclamationTriangleIcon } from '@heroicons/vue/24/outline'
 //import { ChevronDownIcon } from '@heroicons/vue/20/solid'
+import moment from 'moment-timezone'
 
 const open = ref(false);
 const editMessageData = ref(null);
@@ -419,7 +420,18 @@ const initializeDatePicker = () => {
       enableTime: true,
       dateFormat: 'Y-m-d H:i',
       minDate: 'today', // Disable past dates
-      minTime: currentTime, // Disable times before 9:00 AM
+      onChange: function (selectedDates) {
+        // Check if selected date is today
+        const selectedDate = selectedDates[0];
+        const isToday =
+            selectedDate &&
+            selectedDate.toDateString() === now.toDateString();
+
+        const minTime = isToday ? currentTime : null;
+
+        // Update Flatpickr's config for minTime dynamically
+        this.set('minTime', minTime);
+      },
     });
   }
 };
@@ -448,7 +460,14 @@ const groupedMessages = computed(() => {
     const groups = {}; 
     messages.value.forEach((message) => {
         // Use scheduleAt if it exists; otherwise, fallback to created_at
-        let date = message.created_at.split('T')[0]; // Extract date (YYYY-MM-DD)
+        /*
+        let date = new Date(message.created_at);
+        let dateString = date.toLocaleDateString(); // This will give you the date in a readable format (e.g., "1/18/2025")
+
+        // If you want a custom format:
+        let customDateString = date.getFullYear() + '-' + (date.getMonth() + 1).toString().padStart(2, '0') + '-' + date.getDate().toString().padStart(2, '0');
+        */
+        let date = moment(message.created_at).tz('Asia/Kuala_Lumpur').format('YYYY-MM-DD HH:mm:ss').split('T')[0];// Extract date (YYYY-MM-DD)
         if (message.scheduleAt !== null) {
             date = message.scheduleAt.split(' ')[0];
         };//console.log(date);

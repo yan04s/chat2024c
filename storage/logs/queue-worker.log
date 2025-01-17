@@ -2888,3 +2888,82 @@
   2025-01-17 21:44:25 App\Events\MessageSent .................... 96.75ms DONE
   2025-01-17 21:44:44 App\Events\MessageDeleted ...................... RUNNING
   2025-01-17 21:44:44 App\Events\MessageDeleted ................. 80.88ms DONE
+  2025-01-17 23:02:11 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 23:02:11 App\Events\MessageSent .................... 91.49ms DONE
+  2025-01-17 23:31:49 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 23:31:50 App\Events\MessageSent ................... 113.05ms DONE
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chat.cache' doesn't exist (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+31 vendor frames [22m
+
+  32  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chat.cache' doesn't exist (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chat.cache' doesn't exist (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+29 vendor frames [22m
+
+  30  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+  2025-01-17 23:36:06 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 23:36:06 App\Events\MessageSent ................... 137.78ms DONE
+  2025-01-17 23:39:25 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 23:39:25 App\Events\MessageSent ................... 100.77ms DONE
+  2025-01-17 23:51:38 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 23:51:38 App\Events\MessageSent ................... 204.96ms DONE
+  2025-01-17 23:57:56 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 23:57:57 App\Events\MessageSent ................... 102.38ms DONE
+  2025-01-18 00:01:03 App\Events\MessageSent ......................... RUNNING
+  2025-01-18 00:01:03 App\Events\MessageSent ................... 103.02ms DONE
+  2025-01-18 00:31:47 App\Events\MessageSent ......................... RUNNING
+  2025-01-18 00:31:47 App\Events\MessageSent ................... 114.34ms DONE
