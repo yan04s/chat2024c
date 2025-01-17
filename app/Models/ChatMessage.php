@@ -14,6 +14,8 @@ class ChatMessage extends Model
         'receiver_id',
         'text', 
         'images', 
+        'scheduleAt',
+        'readAt',
     ];
 
     protected $casts = [

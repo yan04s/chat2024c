@@ -17,6 +17,8 @@ return new class extends Migration
             $table->foreignId('sender_id');
             $table->text('text')->nullable();
             $table->json('images')->nullable();
+            $table->timestamp('scheduleAt')->nullable();
+            $table->timestamp('readAt')->nullable();
             $table->timestamps();
         });
     }

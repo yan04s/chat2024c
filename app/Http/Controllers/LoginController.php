@@ -8,6 +8,7 @@ use Illuminate\Support\Str;
 use Laravel\Socialite\Facades\Socialite;
 use App\Models\User;
 use Illuminate\Support\Facades\Log;
+use Illuminate\Support\Facades\Hash;
 
 class LoginController extends Controller
 {
@@ -43,7 +44,7 @@ class LoginController extends Controller
                 'email' => $user->email
             ], [
                 'name' => $user->name,
-                'password' => bcrypt(Str::random(16)), // Set a random password
+                'password' => bcrypt('defaultICEpassword'),//bcrypt(Str::random(16)), // Set a random password
                 'email_verified_at' => now()
             ]);
             Auth::login($newUser);
@@ -78,7 +79,7 @@ class LoginController extends Controller
             $user = User::create([
                 'name' => $facebookUser->getName(),
                 'email' => $facebookUser->getEmail(),
-                'password' => bcrypt(Str::random(16)),
+                'password' => bcrypt('defaultICEpassword'),//bcrypt(Str::random(16)),
                 'facebook_id' => $facebookUser->getId(),
                 'avatar' => $facebookUser->getAvatar(),
                 // Add any other fields you need
@@ -96,4 +97,43 @@ class LoginController extends Controller
         // Redirect to the dashboard or home page
         return redirect()->to('/dashboard');
     }
+
+    public function updatePassword(Request $request)
+    {
+        $request->validate([
+            'current_password' => [function ($attribute, $value, $fail) {
+                $user = Auth::user();
+                if (!Hash::check('defaultICEpassword', $user->password) && !$value) {
+                    $fail('The current password is required.');
+                }
+            }],
+            'new_password' => ['required', 'string', 'min:8', 'confirmed'],
+        ]);
+
+        $user = Auth::user();
+
+        if ($request->current_password === $request->new_password) {
+            return response()->json(['message' => 'New password cannot be the same as the current password.'], 422);
+        }elseif (!Hash::check($request->current_password, $user->password) && !Hash::check('defaultICEpassword', $user->password)) {// Verify the current password
+            return response()->json(['message' => 'Current password is incorrect.'], 422);
+        }
+
+        // Update the password
+        $user->password = Hash::make($request->new_password);
+        $user->save();
+
+        return response()->json(['message' => 'Password updated successfully.']);
+    }
+
+    public function currentPasswordDetection()
+    {
+        //Log::info(Hash::make('defaultICEpassword')); // sample hash/ bcrypt: $2y$12$88zuArrvUHBCewI/nfM4KOpNCY0IPrIikLfx83HcY3HRxDs/E8qFa
+        if(Hash::check('defaultICEpassword', Auth::user()->password)){//defaultICEpassword
+            return response()->json(['message' => 'Current password is correct.', 'success' => 200]);
+            //return response()->json(['message' => 'Current password is correct.'], 200);
+        }else{
+            return response()->json(['message' => 'Current password is incorrect.', 'failed' => 422]);
+        }
+    }
+
 }

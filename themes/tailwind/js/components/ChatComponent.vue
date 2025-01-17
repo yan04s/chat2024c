@@ -41,9 +41,95 @@
 .dropdown button:hover {
     background-color: #f1f1f1;
 }
+
+@media (max-width: 450px) {
+    .threeDotsED {
+        margin-left: -5.8vw !important;
+    }
+}
+
 </style>
 
 <template>
+    <!--Schedule Message-->
+    <TransitionRoot as="template" :show="openSchedule">
+        <Dialog class="relative z-10" @close="openSchedule = false">
+        <TransitionChild
+            as="template"
+            enter="ease-out duration-300"
+            enter-from="opacity-0"
+            enter-to="opacity-100"
+            leave="ease-in duration-200"
+            leave-from="opacity-100"
+            leave-to="opacity-0"
+        >
+            <div class="fixed inset-0 bg-gray-500/75 transition-opacity" />
+        </TransitionChild>
+
+        <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+            <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+            <TransitionChild
+                as="template"
+                enter="ease-out duration-300"
+                enter-from="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+                enter-to="opacity-100 translate-y-0 sm:scale-100"
+                leave="ease-in duration-200"
+                leave-from="opacity-100 translate-y-0 sm:scale-100"
+                leave-to="opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+            >
+                <DialogPanel class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                    <div class="text-center">
+                    <DialogTitle as="h3" class="text-base font-semibold text-gray-900">
+                        Schedule a Message
+                    </DialogTitle>
+                    <div class="mt-4">
+                        <!-- Date Time Picker -->
+                        <label for="date" class="block text-sm font-medium text-gray-700">Select Date</label>
+                        <input
+                        id="date"
+                        v-model="scheduleDateTime"
+                        type="text"
+                        class="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                        ref="datePicker"
+                        @focus="initializeDatePicker"
+                        />
+
+                        <!-- Time Picker -->
+                        <!-- <label for="time" class="block mt-4 text-sm font-medium text-gray-700">Select Time</label>
+                        <input
+                        id="time"
+                        v-model="scheduleTime"
+                        type="time"
+                        class="mt-1 w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
+                        /> -->
+                    </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                    <button
+                    type="button"
+                    class="inline-flex w-full justify-center rounded-md bg-blue-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 sm:ml-3 sm:w-auto"
+                    @click="scheduleMessage"
+                    >
+                    Schedule
+                    </button>
+                    <button
+                    type="button"
+                    class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto"
+                    @click="openSchedule = false"
+                    >
+                    Cancel
+                    </button>
+                </div>
+                </DialogPanel>
+            </TransitionChild>
+            </div>
+        </div>
+        </Dialog>
+    </TransitionRoot>
+
+    <!--Edit Message-->
     <TransitionRoot as="template" :show="open">
         <Dialog class="relative z-10" @close="open = false">
         <TransitionChild as="template" enter="ease-out duration-300" enter-from="opacity-0" enter-to="opacity-100" leave="ease-in duration-200" leave-from="opacity-100" leave-to="opacity-0">
@@ -103,62 +189,76 @@
                     </div> -->
 
                     <div
-                        v-for="message in messages"
-                        :key="message.id"
-                        class="flex items-center mb-2 row"
+                        v-for="(messageGroup, index) in groupedMessages"
+                        :key="index"
+                        class="mb-4"
                     >
-                        <div
-                            v-if="message.sender_id === currentUser.id"
-                            class="relative flex flex-col items-center ml-auto col-12" style="float: right;"
-                        >
-                            <div class="absolute left-0 top-1/2 transform -translate-y-1/2" style="left: -2.8vw;">
-                                <button
-                                    @click="toggleDropdown(message.id, $event)"
-                                    class="px-2 py-1 text-sm text-white bg-gray-700 rounded-lg"
-                                    id="dropdownED"
-                                >
-                                    ⋮
-                                </button>
-                                <div
-                                    v-if="dropdownOpen === message.id"
-                                    class="absolute z-10 w-24 mt-1 bg-white border rounded-lg shadow" 
-                                    id="dropdownEDMenu"
-                                >
-                                    <button
-                                        @click="editMessage(message)"
-                                        class="w-full px-2 py-1 text-left text-gray-700 hover:bg-gray-100"
-                                    >
-                                        Edit
-                                    </button>
-                                    <button
-                                        @click="deleteMessage(message.id)"
-                                        class="w-full px-2 py-1 text-left text-red-700 hover:bg-red-100"
-                                    >
-                                        Delete
-                                    </button>
-                                </div>
-                            </div>
-                            <!-- Display images if available -->
-                            <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap row">
-                                <div v-for="image in message.images" :key="image" class="mt-2">
-                                    <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg" @click="openImage(`/storage/${image}`)">
-                                </div>
-                            </div>
-                            <div class="ml-2 p-2 text-white bg-blue-500 rounded-lg row" style="width: 100%;">
-                                <p>{{ message.text }}</p>
-                            </div>
+                        <!-- Date Separator -->
+                        <div class="text-center text-gray-500 text-sm my-2">
+                            {{ formatDate(messageGroup.date) }}
                         </div>
-                        <div v-else class="p-2 mr-auto bg-gray-200 rounded-lg row" style="width: 15rem;float: left;">
-                            {{ message.text }}
-                            <!-- Display images if available -->
-                            <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap row">
-                                <div v-for="image in message.images" :key="image" class="mt-2 col-2">
-                                    <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg image" @click="openImage(`/storage/${image}`)">
+                        <div
+                            v-for="message in messageGroup.messages"
+                            :key="message.id"
+                            class="flex items-center mb-2 row"
+                        > <!--v-for="message in messages"-->
+                            <div
+                                v-if="message.sender_id === currentUser.id"
+                                class="relative flex flex-col items-center ml-auto col-12" style="float: right;"
+                            >
+                                <div class="absolute left-0 top-1/2 transform -translate-y-1/2 threeDotsED" style="margin-left: -2.8vw;">
+                                    <button
+                                        @click="toggleDropdown(message.id, $event)"
+                                        class="px-2 py-1 text-sm text-white bg-gray-700 rounded-lg"
+                                        id="dropdownED"
+                                    >
+                                        ⋮
+                                    </button>
+                                    <div
+                                        v-if="dropdownOpen === message.id"
+                                        class="absolute z-10 w-24 mt-1 bg-white border rounded-lg shadow" 
+                                        id="dropdownEDMenu" 
+                                        style="bottom: 5vh;right: 0;" 
+                                    >
+                                        <button
+                                            @click="editMessage(message)"
+                                            class="w-full px-2 py-1 text-left text-gray-700 hover:bg-gray-100"
+                                        >
+                                            Edit
+                                        </button>
+                                        <button
+                                            @click="deleteMessage(message.id)"
+                                            class="w-full px-2 py-1 text-left text-red-700 hover:bg-red-100"
+                                        >
+                                            Delete
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- Display images if available -->
+                                <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap row" style="width: 12rem;">
+                                    <div v-for="image in message.images" :key="image" class="mt-2">
+                                        <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg" @click="openImage(`/storage/${image}`)">
+                                    </div>
+                                </div>
+                                <div class="ml-2 p-2 text-white bg-blue-500 rounded-lg row mobile:w-1/3" style="width: 15rem;"
+                                :class="message.scheduleAt ? 'bg-gray-500' : 'bg-blue-500'" >
+                                    <p>{{ message.text }}</p>
+                                    <span style="float: right;font-size: small;">
+                                        {{ formatDateTime(message.scheduleAt || message.created_at) }}
+                                    </span>
+                                </div>
+                            </div>
+                            <div v-else class="p-2 mr-auto bg-gray-200 rounded-lg row" style="width: 15rem;float: left;">
+                                {{ message.text }}
+                                <!-- Display images if available -->
+                                <div v-if="message.images && message.images.length" class="flex justify-center flex-wrap row">
+                                    <div v-for="image in message.images" :key="image" class="mt-2 col-2">
+                                        <img :src="`/storage/${image}`" alt="Message Image" class="w-24 h-24 object-cover rounded-lg image" @click="openImage(`/storage/${image}`)">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
             <div class="row"><!--flex items-center-->
@@ -189,20 +289,67 @@
                             </button>-->
                         </div>
                     </div>
-                    <input
+                    
+                        <!-- Input Field -->
+                        <input
                         type="text"
                         v-model="newMessage"
                         @keydown="sendTypingEvent"
                         @keyup.enter="sendMessage"
                         placeholder="Type a message..."
                         class="flex-1 px-2 py-1 border rounded-lg ml-2"
-                    />
-                    <button
+                        />
+
+                        <!-- Send Button -->
+                        <button
                         @click="sendMessage"
-                        class="px-4 py-1 ml-2 text-white bg-blue-500 rounded-lg"
-                    >
+                        @contextmenu.prevent="openDropdownSend" 
+                        class="px-4 py-1 ml-2 text-white bg-blue-500 rounded-lg" id="openDropdownSend"
+                        >
                         Send
-                    </button>
+                        </button>
+                        <!-- Dropdown Menu -->
+                        <div
+                        v-if="dropdownOpenSend"
+                        class="absolute mt-2 right-0 w-40 bg-white border rounded-lg shadow-lg" id="dropdownOpenSend" 
+                        style="right: 3rem;bottom: 9rem;"
+                        >
+                        <ul class="py-2 text-sm text-gray-700">
+                            <li @click="openSchedule=true" class="px-4 py-2 hover:bg-gray-100 cursor-pointer">Schedule</li>
+                        </ul>
+                        </div>
+
+
+
+                        <!-- <Menu as="div" class="relative inline-block text-left">
+                            <div>
+                            <MenuButton @click.right.prevent="openDropdownSend" @click.left.prevent="sendMessage" class="px-4 py-1 ml-2 rounded-lg inline-flex w-full justify-center gap-x-1.5 rounded-md bg-blue-500 px-3 py-2 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-blue-300 hover:bg-blue-550">
+                                Send
+                                <ChevronDownIcon class="-mr-1 size-5 text-white" aria-hidden="true" />
+                            </MenuButton>
+                            </div>
+
+                            <transition enter-active-class="transition ease-out duration-100" enter-from-class="transform opacity-0 scale-95" enter-to-class="transform opacity-100 scale-100" leave-active-class="transition ease-in duration-75" leave-from-class="transform opacity-100 scale-100" leave-to-class="transform opacity-0 scale-95">
+                            <MenuItems class="-top-full absolute right-0 z-10 w-56 origin-bottom-right rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none" style="margin-top:-0.75rem;right:-0.5rem;" v-show="dropdownOpenSend">
+                                <div class="py-1">
+                                <MenuItem v-slot="{ active }">
+                                    <a href="#" :class="[active ? 'bg-gray-100 text-gray-900 outline-none' : 'text-gray-700', 'block px-4 py-2 text-sm']">Account settings</a>
+                                </MenuItem>
+                                <MenuItem v-slot="{ active }">
+                                    <a href="#" :class="[active ? 'bg-gray-100 text-gray-900 outline-none' : 'text-gray-700', 'block px-4 py-2 text-sm']">Support</a>
+                                </MenuItem>
+                                <MenuItem v-slot="{ active }">
+                                    <a href="#" :class="[active ? 'bg-gray-100 text-gray-900 outline-none' : 'text-gray-700', 'block px-4 py-2 text-sm']">License</a>
+                                </MenuItem>
+                                <form method="POST" action="#">
+                                    <MenuItem v-slot="{ active }">
+                                    <button type="submit" :class="[active ? 'bg-gray-100 text-gray-900 outline-none' : 'text-gray-700', 'block w-full px-4 py-2 text-left text-sm']">Sign out</button>
+                                    </MenuItem>
+                                </form>
+                                </div>
+                            </MenuItems>
+                            </transition>
+                        </Menu> -->
                 </div>
                 <div class="row" hidden>
                     <input id="fileUpload" type="file" @change="handleImageUpload" multiple accept="image/*" class="ml-2 attachment" />
@@ -226,9 +373,10 @@
 
 <script setup>
 import axios from "axios";
-import { nextTick, onMounted, ref, watch } from "vue";
-import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot } from '@headlessui/vue'
+import { nextTick, onMounted, ref, watch, computed } from "vue";
+import { Dialog, DialogPanel, DialogTitle, TransitionChild, TransitionRoot, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/vue'
 import { ExclamationTriangleIcon } from '@heroicons/vue/24/outline'
+//import { ChevronDownIcon } from '@heroicons/vue/20/solid'
 
 const open = ref(false);
 const editMessageData = ref(null);
@@ -255,6 +403,86 @@ const imagesPreview = ref([]);
 const imagesToUpload = ref([]);
 const dropdownOpen = ref(null);
 
+import flatpickr from 'flatpickr'
+import 'flatpickr/dist/flatpickr.css'
+
+// Reactive states for the dialog and scheduling data
+const openSchedule = ref(false)
+const scheduleDateTime = ref('')
+const datePicker = ref(null)
+// Initialize the Flatpickr calendar
+const initializeDatePicker = () => {
+  const now = new Date();
+  const currentTime = `${now.getHours().toString().padStart(2, '0')}:${now.getMinutes().toString().padStart(2, '0')}`;
+  if (datePicker.value) {
+    flatpickr(datePicker.value, {
+      enableTime: true,
+      dateFormat: 'Y-m-d H:i',
+      minDate: 'today', // Disable past dates
+      minTime: currentTime, // Disable times before 9:00 AM
+    });
+  }
+};
+onMounted(() => {
+  nextTick(() => {
+    initializeDatePicker();
+  });
+});
+// Function to handle message scheduling
+const scheduleMessage = () => {
+    //datePicker.value = scheduleDateTime.value;
+  if (!scheduleDateTime.value ){//|| !scheduleTime.value) {
+    //alert('Please select both date and time.')
+    alert('Please select date and time.')
+    return
+  }
+  //const scheduledDateTime = `${scheduleDateTime.value} ${scheduleTime.value}`
+  console.log('Message scheduled for:', scheduleDateTime)
+  sendMessage();
+  scheduleDateTime.value = ''
+  openSchedule.value = false
+}
+
+// Group messages by date
+const groupedMessages = computed(() => {
+    const groups = {}; 
+    messages.value.forEach((message) => {
+        // Use scheduleAt if it exists; otherwise, fallback to created_at
+        let date = message.created_at.split('T')[0]; // Extract date (YYYY-MM-DD)
+        if (message.scheduleAt !== null) {
+            date = message.scheduleAt.split(' ')[0];
+        };//console.log(date);
+        if (!groups[date]) {
+            groups[date] = { date, messages: [] };
+        }
+        groups[date].messages.push(message);
+    });
+    return Object.values(groups); // Convert groups object to an array
+});
+// Format date for the date separator
+const formatDate = (isoString) => {
+    if (!isoString) return '';
+    const date = new Date(isoString);
+    const options = { year: 'numeric', month: 'long', day: 'numeric' };
+    return date.toLocaleDateString('en-US', options);
+};
+// Function to format the datetime
+const formatDateTime = (isoString) => {
+  if (!isoString) return ''; // Return an empty string if the value is null or undefined
+  
+  const date = new Date(isoString);
+  const options = {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: true,
+  };
+  return date.toLocaleString('en-US', options); // Adjust the locale as needed
+};
+
+
 const toggleDropdownPlusButton = (event) => {
     const dropdown = document.getElementById("dropdownMenu");
     dropdown.classList.toggle("hidden");
@@ -272,6 +500,24 @@ const closeDropdownOnOutsideClick = (event) => {
 // Add a click event listener to the document
 document.addEventListener("click", closeDropdownOnOutsideClick);
 
+const dropdownOpenSend = ref(false);
+const openDropdownSend = () => {
+    dropdownOpenSend.value = !dropdownOpenSend.value;
+};
+// Function to close dropdown if clicked outside
+const closeOpenDropdownSend = (event) => {
+  const dropdown = document.getElementById("dropdownOpenSend");
+  const toggleButton = document.getElementById("openDropdownSend");
+
+  // Ensure dropdown exists before checking
+  if (dropdown && toggleButton) {
+    // Check if the click target is not the dropdown or toggle button
+    if (!dropdown.contains(event.target) && !toggleButton.contains(event.target)) {
+      dropdownOpenSend.value = false; // Close the dropdown
+    }
+  }
+};
+document.addEventListener("click", closeOpenDropdownSend);
 
 const openImage = (imagePath) => {
     const windowProperties =
@@ -362,6 +608,7 @@ watch(
     }
 };*/
 const sendMessage = () => {
+    dropdownOpenSend.value = false;
     if (newMessage.value.trim() !== "" || imagesToUpload.value.length > 0) {
         const formData = new FormData();
         formData.append("message", newMessage.value);
@@ -370,6 +617,10 @@ const sendMessage = () => {
         imagesToUpload.value.forEach((image, index) => {
             formData.append("images[]", image);
         });
+
+        if (scheduleDateTime.value) {
+            formData.append("scheduled_at", scheduleDateTime.value);
+        }
 
         axios
             .post(`/messages/${props.friend.id}`, formData)
@@ -380,6 +631,8 @@ const sendMessage = () => {
                 imagesToUpload.value = [];
                 document.getElementsByClassName("attachment")[0].value = "";
             });
+    }else{
+        alert('Please type a message or upload an image.');
     }
 };
 

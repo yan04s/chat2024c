@@ -154,10 +154,102 @@
 </nav> -->
 <!-- Navbar -->
 
+<div id="modal" class="relative z-10 hidden" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+  <!--
+    Background backdrop, show/hide based on modal state.
 
-    
+    Entering: "ease-out duration-300"
+      From: "opacity-0"
+      To: "opacity-100"
+    Leaving: "ease-in duration-200"
+      From: "opacity-100"
+      To: "opacity-0"
+  -->
+  <div class="fixed inset-0 bg-gray-500/75 transition-opacity" aria-hidden="true"></div>
+
+  <div class="fixed inset-0 z-10 w-screen overflow-y-auto">
+    <div class="flex min-h-full items-end justify-center p-4 text-center sm:items-center sm:p-0">
+      <!--
+        Modal panel, show/hide based on modal state.
+
+        Entering: "ease-out duration-300"
+          From: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+          To: "opacity-100 translate-y-0 sm:scale-100"
+        Leaving: "ease-in duration-200"
+          From: "opacity-100 translate-y-0 sm:scale-100"
+          To: "opacity-0 translate-y-4 sm:translate-y-0 sm:scale-95"
+      -->
+        <form id="changePasswordForm"><!-- class="bg-white p-6 rounded-lg shadow-md"-->
+            <div class="relative transform overflow-hidden rounded-lg bg-white text-left shadow-xl transition-all sm:my-8 sm:w-full sm:max-w-lg">
+                <div class="bg-white px-4 pb-4 pt-5 sm:p-6 sm:pb-4">
+                    <div class="sm:flex sm:items-start">
+                        <div class="mx-auto flex size-12 shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:size-10">
+                        <svg class="size-6 text-red-600" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z" />
+                        </svg>
+                        </div>
+                        <div class="mt-3 text-center sm:ml-4 sm:mt-0 sm:text-left">
+                            <h3 class="text-base font-semibold text-gray-900" id="modal-title">Change Password</h3>
+                            <!-- Current Password -->
+                            <div id="currentPasswordContainer" class="mt-2 mb-4">
+                                <label for="current_password" class="block text-sm font-medium text-gray-700">
+                                    Current Password
+                                </label>
+                                <input 
+                                    type="password" 
+                                    id="current_password" 
+                                    name="current_password" 
+                                    class="mt-1 block w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+                                    required
+                                />
+                            </div>
+
+                            <!-- New Password -->
+                            <div class="mb-4">
+                                <label for="new_password" class="block text-sm font-medium text-gray-700">
+                                    New Password
+                                </label>
+                                <input 
+                                    type="password" 
+                                    id="new_password" 
+                                    name="new_password" 
+                                    class="mt-1 block w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+                                    required
+                                />
+                            </div>
+
+                            <!-- Confirm New Password -->
+                            <div class="mb-4">
+                                <label for="new_password_confirmation" class="block text-sm font-medium text-gray-700">
+                                    Confirm New Password
+                                </label>
+                                <input 
+                                    type="password" 
+                                    id="new_password_confirmation" 
+                                    name="new_password_confirmation" 
+                                    class="mt-1 block w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring focus:ring-blue-300"
+                                    required
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-gray-50 px-4 py-3 sm:flex sm:flex-row-reverse sm:px-6">
+                <button id="submitPasswordChange" type="button" class="inline-flex w-full justify-center rounded-md bg-red-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-red-500 sm:ml-3 sm:w-auto">Update Password</button><!-- data-close-modal-->
+                <button data-close-modal type="button" class="mt-3 inline-flex w-full justify-center rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 sm:mt-0 sm:w-auto">Cancel</button>
+                </div>
+                <!-- Feedback -->
+                <div id="feedback" class="mt-4 text-sm"></div>
+            </div>
+        </form>
+    </div>
+  </div>
+</div>
+
+
 <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">-->
-<div class="bg-blue-500">
+<!-- npm install @headlessui/vue @heroicons/vue -->
+<div class="bg-blue-500"><!--https://freefrontend.com/tailwind-navbars/ https://www.creative-tim.com/twcomponents/component/navbar-hamburger-menu -->
 	<nav class="relative px-4 py-4 flex justify-between items-center bg-white">
 		<a class="text-3xl font-bold leading-none items-center flex" style="gap: 0.5rem;" href="<?php echo e(route('dashboard')); ?>">
 			<!-- <svg class="h-10" alt="logo" viewBox="0 0 10240 10240">
@@ -202,7 +294,56 @@
 		</ul>
          
         <?php if(auth()->guard()->check()): ?>
-		<a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="#"><?php echo e(Auth::user()->name); ?></a>
+		<!-- <a class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold  rounded-xl transition duration-200" href="#"><?php echo e(Auth::user()->name); ?></a> -->
+
+            <!-- User Name Button -->
+            <a 
+                id="dropdownToggleAuthName" 
+                class="hidden lg:inline-block lg:ml-auto lg:mr-3 py-2 px-6 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold rounded-xl transition duration-200 cursor-pointer" 
+                onclick="toggleDropdown()"
+            >
+                <?php echo e(Auth::user()->name); ?>
+
+            </a>
+
+            <!-- Dropdown Menu -->
+            <div 
+                id="dropdownMenuAuthName" 
+                class="absolute right-0 mt-2 w-48 bg-white border border-gray-200 rounded-lg shadow-lg hidden" style="top:3rem;right:7.5rem"
+            >
+                <ul class="py-2 text-sm text-gray-700">
+                    <li>
+                        <a  id="openModalButton" 
+                            href="#" 
+                            class="block px-4 py-2 hover:bg-gray-100"
+                        >
+                            Change Password
+                        </a>
+                    </li>
+                    <!-- <li>
+                        <a 
+                            href="" 
+                            class="block px-4 py-2 hover:bg-gray-100"
+                        >
+                            Settings
+                        </a>
+                    </li>
+                    <li>
+                        <a 
+                            href="" 
+                            class="block px-4 py-2 hover:bg-gray-100"
+                            onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+                        >
+                            Logout
+                        </a>
+                        <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="hidden">
+                            <?php echo csrf_field(); ?>
+                        </form>
+                    </li> -->
+                </ul>
+            </div>
+
+
 		<a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="<?php echo e(route('logout')); ?>" 
                     onclick="event.preventDefault();logoutFB();document.getElementById('logout-form').submit();"><?php echo e(__('Logout')); ?></a>
         <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="hidden">
@@ -287,8 +428,24 @@
 					<!-- <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl" href="#">Sign in</a>
 					<a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="#">Sign Up</a> -->
                     <?php if(auth()->guard()->check()): ?>
-                    <a class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl" href="#"><?php echo e(Auth::user()->name); ?></a>
-					<a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="<?php echo e(route('logout')); ?>" 
+                    <a id="dropdownToggleAuthNameCollapse" onclick="toggleDropdownCollapse()" class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold leading-none bg-gray-50 hover:bg-gray-100 rounded-xl" href="#"><?php echo e(Auth::user()->name); ?></a>
+					<!-- Dropdown Menu -->
+                    <div 
+                        id="dropdownMenuAuthNameCollapse" 
+                        class="absolute right-0 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg hidden" style="bottom: 4.15rem; right: 1.5rem; width: 18.5rem;"
+                    >
+                        <ul class="py-2 text-sm text-gray-700">
+                            <li>
+                                <a  id="openModalButtonCollapse" 
+                                    href="#" 
+                                    class="block px-4 py-2 hover:bg-gray-100"
+                                >
+                                    Change Password
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700  rounded-xl" href="<?php echo e(route('logout')); ?>" 
                     onclick="event.preventDefault();logoutFB();document.getElementById('logout-form').submit();"><?php echo e(__('Logout')); ?></a>
                     <form id="logout-form" action="<?php echo e(route('logout')); ?>" method="POST" class="hidden">
                         <?php echo csrf_field(); ?>
@@ -345,6 +502,175 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 });
 </script> -->
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script>
+    const toggleDropdown = () => {
+        const dropdownMenuAuthName = document.getElementById('dropdownMenuAuthName');
+        dropdownMenuAuthName.classList.toggle('hidden'); // Show or hide the dropdown
+    };
+    const toggleDropdownCollapse = () => {
+        const dropdownMenuAuthNameCollapse = document.getElementById('dropdownMenuAuthNameCollapse');
+        dropdownMenuAuthNameCollapse.classList.toggle('hidden'); // Show or hide the dropdown
+    };
+
+    // Close dropdown when clicking outside
+    document.addEventListener('click', (event) => {
+        const dropdownMenuAuthName = document.getElementById('dropdownMenuAuthName');
+        const dropdownToggleAuthName = document.getElementById('dropdownToggleAuthName');
+
+        if (
+            dropdownMenuAuthName && 
+            dropdownToggleAuthName && 
+            !dropdownMenuAuthName.contains(event.target) && 
+            !dropdownToggleAuthName.contains(event.target)
+        ) {
+            dropdownMenuAuthName.classList.add('hidden');
+        }
+
+        const dropdownMenuAuthNameCollapse = document.getElementById('dropdownMenuAuthNameCollapse');
+        const dropdownToggleAuthNameCollapse = document.getElementById('dropdownToggleAuthNameCollapse');
+
+        if (
+            dropdownMenuAuthNameCollapse && 
+            dropdownToggleAuthNameCollapse && 
+            !dropdownMenuAuthNameCollapse.contains(event.target) && 
+            !dropdownToggleAuthNameCollapse.contains(event.target)
+        ) {
+            dropdownMenuAuthNameCollapse.classList.add('hidden');
+        }
+    });
+
+    let currentPasswordContainer = true;
+    axios.get('<?php echo e(route("cPD")); ?>').then(response => {
+        //console.log(response.data);
+        if (response.data.success==200)
+        {
+            document.getElementById('currentPasswordContainer').classList.add('hidden');
+            currentPasswordContainer = false;
+        }
+    });
+    
+    document.addEventListener('DOMContentLoaded', () => {
+        // Get modal and buttons
+        const modal = document.getElementById('modal');
+        const openModalButton = document.getElementById('openModalButton');
+        const openModalButtonCollapse = document.getElementById('openModalButtonCollapse');
+        const closeModalButtons = document.querySelectorAll('[data-close-modal]');
+
+        // Function to show modal
+        const showModal = () => {
+            modal.classList.remove('hidden');
+        };
+
+        // Function to hide modal
+        const hideModal = () => {
+            modal.classList.add('hidden');
+        };
+
+        // Attach event listener to open modal button
+        if (openModalButton) {
+            openModalButton.addEventListener('click', showModal);
+        }
+        if (openModalButtonCollapse) {
+            openModalButtonCollapse.addEventListener('click', showModal);
+        }
+
+        // Attach event listener to close modal buttons
+        closeModalButtons.forEach((button) => {
+            button.addEventListener('click', hideModal);
+        });
+
+        // Close modal on clicking outside the modal content
+        modal.addEventListener('click', (event) => {
+            if (event.target === modal) {
+                hideModal();
+            }
+        });
+
+        document.getElementById('submitPasswordChange').addEventListener('click', function () {
+            const currentPassword = document.getElementById('current_password').value;
+            const newPassword = document.getElementById('new_password').value;
+            const newPasswordConfirmation = document.getElementById('new_password_confirmation').value;
+
+            // Clear feedback
+            const feedback = document.getElementById('feedback');
+            feedback.innerHTML = '';
+
+            // Validate inputs
+            if (!newPassword || !newPasswordConfirmation) {
+                //feedback.innerHTML = '<p class="text-red-500">All fields are required.</p>';
+                feedback.innerHTML = `<div id="alert" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                    <strong class="font-bold">Error!</strong>
+                    <span class="block sm:inline">All fields are required.</span>
+                    <button type="button" class="absolute top-0 bottom-0 right-0 px-4 py-3" aria-label="Close" 
+                    onclick="document.getElementById('alert').style.display='none'">
+                        <span class="text-red-500 hover:text-red-700">&times;</span>
+                    </button>
+                </div>
+                `;
+                return;
+            }else if(currentPasswordContainer && !currentPassword){
+                //feedback.innerHTML = '<p class="text-red-500">All fields are required.</p>';
+                feedback.innerHTML = `<div id="alert" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                    <strong class="font-bold">Error!</strong>
+                    <span class="block sm:inline">All fields are required.</span>
+                    <button type="button" class="absolute top-0 bottom-0 right-0 px-4 py-3" aria-label="Close" 
+                    onclick="document.getElementById('alert').style.display='none'">
+                        <span class="text-red-500 hover:text-red-700">&times;</span>
+                    </button>
+                </div>
+                `;
+                return;
+            }
+
+            // Send the request
+            axios.post('<?php echo e(route("updatePassword")); ?>', {
+                current_password: currentPassword,
+                new_password: newPassword,
+                new_password_confirmation: newPasswordConfirmation,
+            }).then(response => {
+                //feedback.innerHTML = `<p class="text-green-500">${response.data.message}</p>`;
+                feedback.innerHTML = `<div id="alert" class="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded relative" role="alert">
+                    <strong class="font-bold">Success!</strong>
+                    <span class="block sm:inline">${response.data.message}</span>
+                    <button type="button" class="absolute top-0 bottom-0 right-0 px-4 py-3" aria-label="Close" 
+                    onclick="document.getElementById('alert').style.display='none'">
+                        <span class="text-green-500 hover:text-green-700">&times;</span>
+                    </button>
+                </div>
+                `;
+                document.getElementById('changePasswordForm').reset();
+                //modal.classList.add('hidden');
+            }).catch(error => {
+                if (error.response.status === 422) {
+                    //feedback.innerHTML = `<p class="text-red-500">${error.response.data.message}</p>`;
+                    feedback.innerHTML = `<div id="alert" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                        <strong class="font-bold">Error!</strong>
+                        <span class="block sm:inline">${error.response.data.message}</span>
+                        <button type="button" class="absolute top-0 bottom-0 right-0 px-4 py-3" aria-label="Close" 
+                        onclick="document.getElementById('alert').style.display='none'">
+                            <span class="text-red-500 hover:text-red-700">&times;</span>
+                        </button>
+                    </div>
+                    `;
+                } else {
+                    //feedback.innerHTML = `<p class="text-red-500">An error occurred. Please try again.</p>`;
+                    feedback.innerHTML = `<div id="alert" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                        <strong class="font-bold">Error!</strong>
+                        <span class="block sm:inline">An error occurred. Please try again.</span>
+                        <button type="button" class="absolute top-0 bottom-0 right-0 px-4 py-3" aria-label="Close" 
+                        onclick="document.getElementById('alert').style.display='none'">
+                            <span class="text-red-500 hover:text-red-700">&times;</span>
+                        </button>
+                    </div>
+                    `;
+                }
+            });
+        });
+    });
+</script>
+
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {

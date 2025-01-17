@@ -124,7 +124,8 @@
     <div class="flex flex-col items-center min-h-screen pt-6 bg-gray-100 sm:justify-center sm:pt-0">
         <div>
             <a href="/">
-                <x-application-logo class="w-20 h-20 text-gray-500 fill-current" />
+                <!-- <x-application-logo class="w-20 h-20 text-gray-500 fill-current" /> -->
+                <img src="logo/website.png" alt="logo" style="width: 10rem;">
             </a>
         </div>
 

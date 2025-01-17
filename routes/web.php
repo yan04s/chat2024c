@@ -29,7 +29,11 @@ Route::get('/', function () {
 Route::get('/dashboard', function () {
     return view('dashboard', [
         //'users' => User::whereNot('id', auth()->id())->get()
-        'users' => Friend::where('user_id', Auth::id())->orWhere('friend_id', Auth::id())->where('status', 'accepted')
+        'users' => Friend::where(function ($query) {
+            $query->where('user_id', Auth::id())
+                  ->orWhere('friend_id', Auth::id());
+        })
+        ->where('status', 'accepted')//Friend::where('user_id', Auth::id())->orWhere('friend_id', Auth::id())->where('status', 'accepted')
         ->leftJoin('users', function ($join) {
             $join->on('users.id', '=', DB::raw('CASE WHEN friends.user_id = ' . Auth::id() . ' THEN friends.friend_id ELSE friends.user_id END'));
         })
@@ -55,6 +59,7 @@ Route::get('/chat/{friend}', function (User $friend) {
 })->middleware(['auth'])->name('chat');
 
 Route::get('/messages/{friend}', function (User $friend) {
+    //Log::info(now()); // sudo timedatectl set-timezone Etc/UTC // sudo timedatectl set-timezone Asia/Kuala_Lumpur // timedatectl
     return ChatMessage::query()
         ->where(function ($query) use ($friend) {
             $query->where('sender_id', auth()->id())
@@ -62,7 +67,11 @@ Route::get('/messages/{friend}', function (User $friend) {
         })
         ->orWhere(function ($query) use ($friend) {
             $query->where('sender_id', $friend->id)
-                ->where('receiver_id', auth()->id());
+                ->where('receiver_id', auth()->id())
+                ->where(function ($query) {
+                    $query->whereNull('scheduleAt')
+                          ->orWhere('scheduleAt', '<', now());
+                });
         })
        ->with(['sender', 'receiver'])
        ->orderBy('id', 'asc')
@@ -89,10 +98,13 @@ Route::post('/messages/{friend}', function (User $friend, Request $request) {
         'receiver_id' => $friend->id,
         'text' => $request->message,
         'images' => $uploadedImagePaths,//json_encode($uploadedImagePaths), // Save images as JSON
+        'scheduleAt' => $request->scheduled_at,
     ]);
 
     // Broadcast the message event
-    broadcast(new MessageSent($message));
+    if ($message->scheduleAt == null || $message->scheduleAt < now()) {
+        broadcast(new MessageSent($message));
+    }
     //broadcast(new FetchMessage($message));
 
     return $message;
@@ -114,6 +126,8 @@ Route::middleware('auth')->group(function () {
 
     // Delete message
     Route::delete('/messages/delete/{message}', [MessageController::class, 'destroy'])->name('messages.destroy');
+
+    Route::get('messages/ts/{friend}', [MessageController::class, 'transcript'])->name('messages.transcript');
 });
 
 // https://www.freecodecamp.org/news/how-to-set-up-google-auth-in-laravel-apps/
@@ -128,6 +142,10 @@ Route::get('/auth/facebook/redirect', [LoginController::class, 'redirectToFacebo
 
 // Route to handle the callback from Facebook
 Route::get('/auth/facebook/callback', [LoginController::class, 'handleFacebookCallback'])->name('auth.facebook.callback');
+
+Route::post('updatePassword', [LoginController::class, 'updatePassword'])->name('updatePassword')->middleware(['auth']);
+
+Route::get('cPD', [LoginController::class, 'currentPasswordDetection'])->name('cPD')->middleware(['auth']);
 
 
 require __DIR__.'/auth.php';

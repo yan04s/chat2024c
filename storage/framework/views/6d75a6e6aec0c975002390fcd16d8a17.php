@@ -133,7 +133,7 @@
     <div class="flex flex-col items-center min-h-screen pt-6 bg-gray-100 sm:justify-center sm:pt-0">
         <div>
             <a href="/">
-                <?php if (isset($component)) { $__componentOriginal8892e718f3d0d7a916180885c6f012e7 = $component; } ?>
+                <!-- <?php if (isset($component)) { $__componentOriginal8892e718f3d0d7a916180885c6f012e7 = $component; } ?>
 <?php if (isset($attributes)) { $__attributesOriginal8892e718f3d0d7a916180885c6f012e7 = $attributes; } ?>
 <?php $component = Illuminate\View\AnonymousComponent::resolve(['view' => 'components.application-logo','data' => ['class' => 'w-20 h-20 text-gray-500 fill-current']] + (isset($attributes) && $attributes instanceof Illuminate\View\ComponentAttributeBag ? $attributes->all() : [])); ?>
 <?php $component->withName('application-logo'); ?>
@@ -152,7 +152,8 @@
 <?php if (isset($__componentOriginal8892e718f3d0d7a916180885c6f012e7)): ?>
 <?php $component = $__componentOriginal8892e718f3d0d7a916180885c6f012e7; ?>
 <?php unset($__componentOriginal8892e718f3d0d7a916180885c6f012e7); ?>
-<?php endif; ?>
+<?php endif; ?> -->
+                <img src="logo/website.png" alt="logo" style="width: 10rem;">
             </a>
         </div>
 

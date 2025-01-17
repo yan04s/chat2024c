@@ -1,179 +1,31 @@
-  2024-12-24 10:09:05 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 10:09:05 App\Events\MessageSent ................... 167.89ms DONE
-  2024-12-24 10:09:11 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 10:09:11 App\Events\MessageSent .................... 80.72ms DONE
-  2024-12-24 10:09:20 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 10:09:20 App\Events\MessageSent .................... 81.53ms DONE
-  2024-12-24 10:13:02 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 10:13:02 App\Events\MessageSent ................... 108.58ms DONE
-  2024-12-24 10:13:05 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 10:13:06 App\Events\MessageSent .................... 81.45ms DONE
-  2024-12-24 10:20:33 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 10:20:33 App\Events\MessageSent ................... 115.11ms DONE
-  2024-12-24 10:20:36 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 10:20:36 App\Events\MessageSent .................... 82.50ms DONE
-  2024-12-24 10:20:48 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 10:20:49 App\Events\MessageSent .................... 84.19ms DONE
-  2024-12-24 11:27:58 App\Events\MessageSent ......................... RUNNING
-  2024-12-24 11:27:58 App\Events\MessageSent ................... 218.25ms DONE
-  2024-12-29 02:10:44 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:10:44 App\Events\MessageSent ................... 191.86ms DONE
-  2024-12-29 02:13:27 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:13:27 App\Events\MessageSent ................... 101.15ms DONE
-  2024-12-29 02:13:51 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:13:51 App\Events\MessageSent .................... 78.94ms DONE
-  2024-12-29 02:15:06 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:15:06 App\Events\MessageSent .................... 81.39ms DONE
-  2024-12-29 02:15:21 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:15:21 App\Events\MessageSent ................... 207.87ms DONE
-  2024-12-29 02:19:19 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:19:19 App\Events\MessageSent ................... 207.45ms DONE
-  2024-12-29 02:19:43 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:19:43 App\Events\MessageSent .................... 82.08ms DONE
-  2024-12-29 02:21:37 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:21:37 App\Events\MessageSent ..................... 8.98ms FAIL
-  2024-12-29 02:22:16 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:22:16 App\Events\MessageSent ................... 235.02ms DONE
-  2024-12-29 02:22:25 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:22:25 App\Events\MessageSent ..................... 7.47ms FAIL
-  2024-12-29 02:25:38 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:25:38 App\Events\MessageSent ................... 173.04ms DONE
-  2024-12-29 02:25:50 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:25:50 App\Events\MessageSent .................... 83.29ms DONE
-  2024-12-29 02:27:47 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:27:47 App\Events\MessageSent ................... 125.31ms DONE
-  2024-12-29 02:29:05 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:29:06 App\Events\MessageSent ................... 184.24ms DONE
-  2024-12-29 02:29:45 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:29:45 App\Events\MessageSent .................... 82.93ms DONE
-  2024-12-29 02:29:48 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:29:48 App\Events\MessageSent ..................... 5.81ms FAIL
-  2024-12-29 02:30:06 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:30:06 App\Events\MessageSent ................... 105.00ms DONE
-  2024-12-29 02:30:12 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:30:12 App\Events\MessageSent ..................... 6.08ms FAIL
-  2024-12-29 02:31:09 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:31:09 App\Events\MessageSent .................... 81.60ms DONE
-  2024-12-29 02:31:12 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:31:12 App\Events\MessageSent ..................... 6.71ms FAIL
-  2024-12-29 02:33:57 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:33:57 App\Events\MessageSent ..................... 8.89ms FAIL
-  2024-12-29 02:33:57 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:33:57 App\Events\MessageSent ..................... 5.21ms FAIL
-  2024-12-29 02:33:57 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:33:57 App\Events\MessageSent ..................... 3.72ms FAIL
-  2024-12-29 02:34:03 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:03 App\Events\MessageSent ..................... 5.81ms FAIL
-  2024-12-29 02:34:03 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:03 App\Events\MessageSent ..................... 5.36ms FAIL
-  2024-12-29 02:34:03 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:03 App\Events\MessageSent ..................... 4.30ms FAIL
-  2024-12-29 02:34:15 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:15 App\Events\MessageSent ..................... 6.03ms FAIL
-  2024-12-29 02:34:15 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:15 App\Events\MessageSent ..................... 5.89ms FAIL
-  2024-12-29 02:34:15 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:15 App\Events\MessageSent ..................... 4.73ms FAIL
-  2024-12-29 02:34:28 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:28 App\Events\MessageSent ..................... 5.77ms FAIL
-  2024-12-29 02:34:28 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:28 App\Events\MessageSent ..................... 6.00ms FAIL
-  2024-12-29 02:34:28 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:34:28 App\Events\MessageSent ..................... 4.66ms FAIL
-  2024-12-29 02:37:04 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:37:04 App\Events\MessageSent ................... 127.48ms DONE
-  2024-12-29 02:37:10 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:37:10 App\Events\MessageSent ..................... 8.38ms FAIL
-  2024-12-29 02:37:28 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:37:28 App\Events\MessageSent .................... 22.42ms DONE
-  2024-12-29 02:37:37 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:37:37 App\Events\MessageSent ..................... 7.02ms FAIL
-  2024-12-29 02:38:37 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:38:37 App\Events\MessageSent .................... 98.00ms DONE
-  2024-12-29 02:38:46 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:38:46 App\Events\MessageSent ..................... 8.17ms FAIL
-  2024-12-29 02:40:25 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:40:26 App\Events\MessageSent ................... 102.81ms DONE
-  2024-12-29 02:40:59 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:40:59 App\Events\MessageSent ..................... 9.19ms FAIL
-  2024-12-29 02:44:20 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:44:20 App\Events\MessageSent ................... 111.17ms DONE
-  2024-12-29 02:44:26 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:44:26 App\Events\MessageSent ..................... 8.58ms FAIL
-  2024-12-29 02:49:17 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:49:18 App\Events\MessageSent ................... 102.70ms DONE
-  2024-12-29 02:50:24 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:50:24 App\Events\MessageSent .................... 81.43ms DONE
-  2024-12-29 02:50:27 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 02:50:27 App\Events\MessageSent ..................... 6.41ms FAIL
-  2024-12-29 03:04:16 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:04:16 App\Events\MessageSent ................... 108.66ms DONE
-  2024-12-29 03:05:10 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:05:10 App\Events\MessageSent .................... 88.34ms DONE
-  2024-12-29 03:05:16 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:05:16 App\Events\MessageDeleted ................. 81.06ms DONE
-  2024-12-29 03:05:43 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:05:43 App\Events\MessageSent .................... 82.77ms DONE
-  2024-12-29 03:06:23 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:06:23 App\Events\MessageSent ................... 100.97ms DONE
-  2024-12-29 03:06:29 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:06:29 App\Events\MessageSent .................... 81.91ms DONE
-  2024-12-29 03:06:53 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:06:53 App\Events\MessageSent .................... 82.61ms DONE
-  2024-12-29 03:07:11 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:07:11 App\Events\MessageSent ................... 178.13ms DONE
-  2024-12-29 03:07:17 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:07:17 App\Events\MessageSent .................... 80.91ms DONE
-  2024-12-29 03:07:50 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:07:50 App\Events\MessageSent .................... 78.42ms DONE
-  2024-12-29 03:07:59 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:07:59 App\Events\MessageSent .................... 81.87ms DONE
-  2024-12-29 03:08:08 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:08:08 App\Events\MessageSent .................... 22.27ms DONE
-  2024-12-29 03:08:11 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:08:12 App\Events\MessageDeleted ................. 88.55ms DONE
-  2024-12-29 03:08:33 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:08:33 App\Events\MessageDeleted ................ 125.54ms DONE
-  2024-12-29 03:08:36 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:08:36 App\Events\MessageDeleted ................. 81.35ms DONE
-  2024-12-29 03:08:39 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:08:39 App\Events\MessageDeleted ................. 23.35ms DONE
-  2024-12-29 03:09:21 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:09:21 App\Events\MessageSent .................... 82.06ms DONE
-  2024-12-29 03:10:00 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:10:00 App\Events\MessageSent ................... 185.24ms DONE
-  2024-12-29 03:10:06 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:10:06 App\Events\MessageSent .................... 81.16ms DONE
-  2024-12-29 03:10:12 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:10:12 App\Events\MessageSent .................... 81.47ms DONE
-  2024-12-29 03:10:15 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:10:16 App\Events\MessageDeleted ................. 82.19ms DONE
-  2024-12-29 03:10:22 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:10:22 App\Events\MessageSent .................... 81.54ms DONE
-  2024-12-29 03:10:25 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:10:25 App\Events\MessageSent .................... 80.84ms DONE
-  2024-12-29 03:10:28 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:10:28 App\Events\MessageDeleted ................. 21.22ms DONE
-  2024-12-29 03:10:37 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:10:37 App\Events\MessageDeleted ................ 156.83ms DONE
-  2024-12-29 03:10:37 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:10:37 App\Events\MessageDeleted ................. 87.48ms DONE
-  2024-12-29 03:10:43 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:10:43 App\Events\MessageDeleted ................. 81.15ms DONE
-  2024-12-29 03:10:55 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:10:55 App\Events\MessageSent .................... 81.69ms DONE
-  2024-12-29 03:12:04 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:12:04 App\Events\MessageSent ................... 103.86ms DONE
-  2024-12-29 03:12:25 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:12:26 App\Events\MessageSent .................... 81.87ms DONE
-  2024-12-29 03:12:32 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:12:32 App\Events\MessageSent .................... 82.41ms DONE
-  2024-12-29 03:12:41 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 03:12:41 App\Events\MessageDeleted ................ 204.06ms DONE
+  2025-01-17 00:49:50 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 00:49:50 App\Events\MessageSent ................... 141.48ms DONE
+  2025-01-17 00:50:02 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 00:50:02 App\Events\MessageSent .................... 81.92ms DONE
+  2025-01-17 00:52:02 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 00:52:02 App\Events\MessageSent ................... 133.19ms DONE
+  2025-01-17 19:52:00 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 19:52:00 App\Events\MessageSent ................... 166.96ms DONE
+  2025-01-17 19:53:33 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 19:53:33 App\Events\MessageSent .................... 80.71ms DONE
+  2025-01-17 19:54:21 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 19:54:21 App\Events\MessageSent ................... 106.29ms DONE
+  2025-01-17 19:54:27 App\Events\MessageDeleted ...................... RUNNING
+  2025-01-17 19:54:27 App\Events\MessageDeleted ................. 81.41ms DONE
+  2025-01-17 19:56:07 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 19:56:07 App\Events\MessageSent .................... 81.19ms DONE
+  2025-01-17 19:56:10 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 19:56:10 App\Events\MessageSent .................... 82.95ms DONE
+  2025-01-17 19:56:13 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 19:56:13 App\Events\MessageSent .................... 81.72ms DONE
+  2025-01-17 19:56:16 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 19:56:16 App\Events\MessageSent .................... 21.84ms DONE
+  2025-01-17 20:03:01 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 20:03:02 App\Events\MessageSent ................... 127.86ms DONE
 
    Illuminate\Database\QueryException 
 
-  SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chat.cache' doesn't exist (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
 
   at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
     821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
@@ -186,27 +38,15 @@
     828▕         }
     829▕     }
 
-      [2m+31 vendor frames [22m
+      [2m+42 vendor frames [22m
 
-  32  /var/www/chat.sxags.com/artisan:13
+  43  /var/www/chat.sxags.com/artisan:13
       Illuminate\Foundation\Application::handleCommand()
 
-  2024-12-29 03:42:36 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:42:36 App\Events\MessageSent ................... 121.16ms DONE
-  2024-12-29 03:44:03 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:44:03 App\Events\MessageSent .................... 80.84ms DONE
-  2024-12-29 03:46:36 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:46:36 App\Events\MessageSent ................... 100.01ms DONE
-  2024-12-29 03:49:13 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:49:13 App\Events\MessageSent .................... 34.29ms DONE
-  2024-12-29 03:50:43 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:50:43 App\Events\MessageSent .................... 82.17ms DONE
-  2024-12-29 03:51:13 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:51:13 App\Events\MessageSent ................... 131.18ms DONE
 
    Illuminate\Database\QueryException 
 
-  SQLSTATE[42S02]: Base table or view not found: 1146 Table 'chat.cache' doesn't exist (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
 
   at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
     821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
@@ -219,780 +59,2832 @@
     828▕         }
     829▕     }
 
-      [2m+31 vendor frames [22m
+      [2m+40 vendor frames [22m
 
-  32  /var/www/chat.sxags.com/artisan:13
+  41  /var/www/chat.sxags.com/artisan:13
       Illuminate\Foundation\Application::handleCommand()
 
-  2024-12-29 03:55:48 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:55:48 App\Events\MessageSent ................... 234.07ms DONE
-  2024-12-29 03:55:57 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:55:57 App\Events\MessageSent .................... 81.78ms DONE
-  2024-12-29 03:56:09 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:56:09 App\Events\MessageSent ................... 211.31ms DONE
-  2024-12-29 03:56:39 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 03:56:39 App\Events\MessageSent .................... 76.70ms DONE
-  2024-12-29 04:41:52 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 04:41:52 App\Events\MessageSent ................... 106.99ms DONE
-  2024-12-29 04:41:58 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 04:41:58 App\Events\MessageSent .................... 81.89ms DONE
-  2024-12-29 05:04:54 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:04:54 App\Events\MessageSent .................... 94.29ms DONE
-  2024-12-29 05:05:27 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:05:27 App\Events\MessageSent .................... 22.10ms DONE
-  2024-12-29 05:06:12 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:06:13 App\Events\MessageSent ................... 213.62ms DONE
-  2024-12-29 05:06:37 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:06:37 App\Events\MessageSent .................... 83.38ms DONE
-  2024-12-29 05:07:28 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:07:28 App\Events\MessageSent ................... 105.42ms DONE
-  2024-12-29 05:09:04 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:09:04 App\Events\MessageSent .................... 82.85ms DONE
-  2024-12-29 05:14:11 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:14:11 App\Events\MessageSent ................... 113.91ms DONE
-  2024-12-29 05:24:42 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:24:42 App\Events\MessageSent ................... 109.57ms DONE
-  2024-12-29 05:25:39 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:25:39 App\Events\MessageSent .................... 81.53ms DONE
-  2024-12-29 05:35:07 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:35:07 App\Events\MessageSent ................... 281.54ms DONE
-  2024-12-29 05:35:37 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:35:37 App\Events\MessageSent .................... 82.01ms DONE
-  2024-12-29 05:55:39 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:55:39 App\Events\MessageSent ................... 280.80ms DONE
-  2024-12-29 05:59:31 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 05:59:31 App\Events\MessageSent ................... 126.21ms DONE
-  2024-12-29 06:22:33 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 06:22:33 App\Events\MessageSent ................... 115.66ms DONE
-  2024-12-29 06:37:40 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 06:37:40 App\Events\MessageSent ................... 112.28ms DONE
-  2024-12-29 06:38:13 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 06:38:14 App\Events\MessageDeleted ................ 187.57ms DONE
-  2024-12-29 06:38:17 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 06:38:17 App\Events\MessageDeleted ................. 80.19ms DONE
-  2024-12-29 06:52:21 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 06:52:21 App\Events\MessageSent ................... 127.87ms DONE
-  2024-12-29 06:52:51 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 06:52:51 App\Events\MessageSent .................... 81.14ms DONE
-  2024-12-29 06:53:09 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 06:53:09 App\Events\MessageDeleted ................. 81.31ms DONE
-  2024-12-29 06:53:15 App\Events\MessageDeleted ...................... RUNNING
-  2024-12-29 06:53:15 App\Events\MessageDeleted ................. 80.68ms DONE
-  2024-12-29 07:13:26 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 07:13:27 App\Events\MessageSent ................... 252.92ms DONE
-  2024-12-29 08:25:48 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 08:25:48 App\Events\MessageSent ................... 110.76ms DONE
-  2024-12-29 08:25:57 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 08:25:57 App\Events\MessageSent .................... 38.22ms DONE
-  2024-12-29 08:28:42 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 08:28:43 App\Events\MessageSent ................... 235.16ms DONE
-  2024-12-29 08:28:46 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 08:28:46 App\Events\MessageSent .................... 82.24ms DONE
-  2024-12-29 08:28:49 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 08:28:49 App\Events\MessageSent ................... 218.63ms DONE
-  2024-12-29 08:28:55 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 08:28:55 App\Events\MessageSent .................... 46.41ms DONE
-  2024-12-29 08:29:46 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 08:29:46 App\Events\MessageSent .................... 22.79ms DONE
-  2024-12-29 08:41:29 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 08:41:29 App\Events\MessageSent ................... 108.66ms DONE
-  2024-12-29 09:26:27 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:26:27 App\Events\MessageSent ................... 167.80ms DONE
-  2024-12-29 09:29:18 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:29:18 App\Events\MessageSent ................... 156.13ms DONE
-  2024-12-29 09:29:21 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:29:22 App\Events\MessageSent .................... 22.42ms DONE
-  2024-12-29 09:29:37 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:29:37 App\Events\MessageSent .................... 85.01ms DONE
-  2024-12-29 09:32:07 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:32:07 App\Events\MessageSent ................... 114.67ms DONE
-  2024-12-29 09:37:13 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:37:13 App\Events\MessageSent ................... 128.36ms DONE
-  2024-12-29 09:37:47 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:37:47 App\Events\MessageSent .................... 80.16ms DONE
-  2024-12-29 09:38:14 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:38:14 App\Events\MessageSent .................... 83.53ms DONE
-  2024-12-29 09:38:26 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 09:38:26 App\Events\MessageSent .................... 80.16ms DONE
-  2024-12-29 14:16:30 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:16:30 App\Events\MessageSent ................... 137.18ms DONE
-  2024-12-29 14:17:06 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:17:06 App\Events\MessageSent ................... 194.50ms DONE
-  2024-12-29 14:17:30 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:17:30 App\Events\MessageSent .................... 22.28ms DONE
-  2024-12-29 14:17:45 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:17:45 App\Events\MessageSent .................... 86.51ms DONE
-  2024-12-29 14:17:51 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:17:51 App\Events\MessageSent .................... 81.11ms DONE
-  2024-12-29 14:25:46 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:25:46 App\Events\MessageSent ................... 112.76ms DONE
-  2024-12-29 14:26:31 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:26:31 App\Events\MessageSent .................... 28.80ms DONE
-  2024-12-29 14:26:46 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:26:46 App\Events\MessageSent .................... 82.85ms DONE
-  2024-12-29 14:32:14 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:32:14 App\Events\MessageSent .................... 63.09ms DONE
-  2024-12-29 14:36:23 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:36:23 App\Events\MessageSent ................... 112.83ms DONE
-  2024-12-29 14:53:55 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:53:55 App\Events\MessageSent ................... 116.68ms DONE
-  2024-12-29 14:54:13 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:54:13 App\Events\MessageSent .................... 82.46ms DONE
-  2024-12-29 14:56:19 App\Events\MessageSent ......................... RUNNING
-  2024-12-29 14:56:19 App\Events\MessageSent ................... 130.05ms DONE
-  2025-01-09 07:22:04 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:22:04 App\Events\MessageSent ................... 161.04ms DONE
-  2025-01-09 07:22:49 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:22:49 App\Events\MessageSent .................... 81.73ms DONE
-  2025-01-09 07:23:13 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:23:14 App\Events\MessageSent ................... 203.25ms DONE
-  2025-01-09 07:27:14 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:27:14 App\Events\MessageSent ................... 114.11ms DONE
-  2025-01-09 07:28:08 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:28:08 App\Events\MessageSent .................... 90.47ms DONE
-  2025-01-09 07:30:11 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:30:12 App\Events\MessageSent ................... 114.72ms DONE
-  2025-01-09 07:33:48 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:33:48 App\Events\MessageSent ................... 126.15ms DONE
-  2025-01-09 07:35:15 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:35:15 App\Events\MessageSent .................... 80.91ms DONE
-  2025-01-09 07:38:58 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:38:58 App\Events\MessageSent ................... 157.67ms DONE
-  2025-01-09 07:39:04 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:39:04 App\Events\MessageSent .................... 83.93ms DONE
-  2025-01-09 07:39:13 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:39:13 App\Events\MessageSent .................... 83.40ms DONE
-  2025-01-09 07:44:40 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:44:41 App\Events\MessageSent ................... 103.75ms DONE
-  2025-01-09 07:44:47 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:44:47 App\Events\MessageSent .................... 83.41ms DONE
-  2025-01-09 07:45:38 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:45:38 App\Events\MessageSent .................... 84.75ms DONE
-  2025-01-09 07:45:50 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:45:50 App\Events\MessageSent .................... 83.95ms DONE
-  2025-01-09 07:47:17 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:47:17 App\Events\MessageSent ................... 114.06ms DONE
-  2025-01-09 07:47:26 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:47:26 App\Events\MessageSent .................... 85.35ms DONE
-  2025-01-09 07:55:54 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:55:54 App\Events\MessageSent ................... 112.37ms DONE
-  2025-01-09 07:57:27 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:57:27 App\Events\MessageSent .................... 84.15ms DONE
-  2025-01-09 07:57:27 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 07:57:27 App\Events\fetchMessage .................... 5.74ms FAIL
-  2025-01-09 07:57:27 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 07:57:27 App\Events\fetchMessage .................... 4.40ms FAIL
-  2025-01-09 07:57:27 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 07:57:27 App\Events\fetchMessage .................... 4.81ms FAIL
-  2025-01-09 07:57:36 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 07:57:36 App\Events\MessageSent .................... 83.40ms DONE
-  2025-01-09 07:57:36 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 07:57:36 App\Events\fetchMessage .................... 5.22ms FAIL
-  2025-01-09 07:57:36 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 07:57:36 App\Events\fetchMessage .................... 4.15ms FAIL
-  2025-01-09 07:57:36 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 07:57:36 App\Events\fetchMessage .................... 3.31ms FAIL
-  2025-01-09 09:01:19 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:01:19 App\Events\MessageSent ................... 291.28ms DONE
-  2025-01-09 09:01:19 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:01:19 App\Events\fetchMessage ................... 10.04ms FAIL
-  2025-01-09 09:01:19 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:01:19 App\Events\fetchMessage .................... 7.15ms FAIL
-  2025-01-09 09:01:19 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:01:19 App\Events\fetchMessage .................... 7.03ms FAIL
-  2025-01-09 09:01:49 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:01:49 App\Events\MessageSent .................... 82.94ms DONE
-  2025-01-09 09:01:49 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:01:49 App\Events\fetchMessage .................... 4.45ms FAIL
-  2025-01-09 09:01:49 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:01:49 App\Events\fetchMessage .................... 8.79ms FAIL
-  2025-01-09 09:01:49 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:01:49 App\Events\fetchMessage .................... 6.11ms FAIL
-  2025-01-09 09:02:28 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:02:28 App\Events\MessageSent .................... 94.46ms DONE
-  2025-01-09 09:02:28 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:02:28 App\Events\fetchMessage .................... 5.37ms FAIL
-  2025-01-09 09:02:28 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:02:28 App\Events\fetchMessage .................... 6.13ms FAIL
-  2025-01-09 09:02:28 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:02:28 App\Events\fetchMessage .................... 6.52ms FAIL
-  2025-01-09 09:03:35 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:03:35 App\Events\MessageSent ................... 101.19ms DONE
-  2025-01-09 09:03:35 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:03:35 App\Events\fetchMessage .................... 5.23ms FAIL
-  2025-01-09 09:03:35 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:03:35 App\Events\fetchMessage .................... 5.88ms FAIL
-  2025-01-09 09:03:35 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:03:35 App\Events\fetchMessage .................... 6.59ms FAIL
-  2025-01-09 09:04:20 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:04:20 App\Events\MessageSent .................... 83.60ms DONE
-  2025-01-09 09:04:20 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:04:20 App\Events\fetchMessage .................... 5.40ms FAIL
-  2025-01-09 09:04:20 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:04:20 App\Events\fetchMessage .................... 5.58ms FAIL
-  2025-01-09 09:04:20 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:04:20 App\Events\fetchMessage .................... 6.30ms FAIL
-  2025-01-09 09:05:47 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:05:47 App\Events\MessageSent ................... 106.00ms DONE
-  2025-01-09 09:05:47 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:05:47 App\Events\fetchMessage .................... 4.42ms FAIL
-  2025-01-09 09:05:47 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:05:47 App\Events\fetchMessage .................... 7.03ms FAIL
-  2025-01-09 09:05:47 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:05:47 App\Events\fetchMessage .................... 6.65ms FAIL
-  2025-01-09 09:08:14 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:08:15 App\Events\MessageSent ................... 103.27ms DONE
-  2025-01-09 09:08:15 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:08:15 App\Events\fetchMessage .................... 5.63ms FAIL
-  2025-01-09 09:08:15 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:08:15 App\Events\fetchMessage .................... 5.79ms FAIL
-  2025-01-09 09:08:15 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:08:15 App\Events\fetchMessage .................... 6.41ms FAIL
-  2025-01-09 09:09:21 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:09:21 App\Events\MessageSent .................... 81.65ms DONE
-  2025-01-09 09:09:21 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:09:21 App\Events\fetchMessage .................... 6.34ms FAIL
-  2025-01-09 09:09:21 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:09:21 App\Events\fetchMessage .................... 5.77ms FAIL
-  2025-01-09 09:09:21 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:09:21 App\Events\fetchMessage .................... 6.04ms FAIL
-  2025-01-09 09:11:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:11:51 App\Events\MessageSent ................... 105.18ms DONE
-  2025-01-09 09:12:15 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:12:15 App\Events\MessageSent .................... 59.50ms DONE
-  2025-01-09 09:12:15 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:12:15 App\Events\fetchMessage .................... 6.20ms FAIL
-  2025-01-09 09:12:15 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:12:15 App\Events\fetchMessage .................... 5.68ms FAIL
-  2025-01-09 09:12:15 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:12:15 App\Events\fetchMessage .................... 6.36ms FAIL
-  2025-01-09 09:15:10 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:15:10 App\Events\MessageSent .................... 94.65ms DONE
-  2025-01-09 09:15:10 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:15:10 App\Events\fetchMessage .................... 5.25ms FAIL
-  2025-01-09 09:15:10 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:15:10 App\Events\fetchMessage .................... 5.79ms FAIL
-  2025-01-09 09:15:10 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:15:10 App\Events\fetchMessage .................... 5.83ms FAIL
-  2025-01-09 09:16:28 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:16:28 App\Events\MessageSent .................... 81.66ms DONE
-  2025-01-09 09:16:28 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:16:28 App\Events\fetchMessage .................... 5.64ms FAIL
-  2025-01-09 09:16:28 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:16:28 App\Events\fetchMessage .................... 5.85ms FAIL
-  2025-01-09 09:16:28 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:16:28 App\Events\fetchMessage .................... 6.03ms FAIL
-  2025-01-09 09:18:52 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:18:52 App\Events\MessageSent ................... 105.80ms DONE
-  2025-01-09 09:18:52 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:18:52 App\Events\fetchMessage .................... 6.51ms FAIL
-  2025-01-09 09:18:52 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:18:52 App\Events\fetchMessage .................... 5.58ms FAIL
-  2025-01-09 09:18:52 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:18:52 App\Events\fetchMessage .................... 5.65ms FAIL
-  2025-01-09 09:19:25 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:19:26 App\Events\MessageSent ................... 208.27ms DONE
-  2025-01-09 09:19:26 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:19:26 App\Events\fetchMessage .................... 5.39ms FAIL
-  2025-01-09 09:19:26 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:19:26 App\Events\fetchMessage .................... 5.22ms FAIL
-  2025-01-09 09:19:26 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:19:26 App\Events\fetchMessage .................... 7.34ms FAIL
-  2025-01-09 09:19:41 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:19:41 App\Events\MessageSent .................... 69.91ms DONE
-  2025-01-09 09:19:41 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:19:41 App\Events\fetchMessage .................... 2.70ms FAIL
-  2025-01-09 09:19:41 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:19:41 App\Events\fetchMessage .................... 2.91ms FAIL
-  2025-01-09 09:19:41 App\Events\fetchMessage ........................ RUNNING
-  2025-01-09 09:19:41 App\Events\fetchMessage .................... 2.31ms FAIL
-  2025-01-09 09:22:32 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:22:32 App\Events\MessageSent ................... 101.94ms DONE
-  2025-01-09 09:23:08 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:23:08 App\Events\MessageSent ................... 198.49ms DONE
-  2025-01-09 09:23:08 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:23:08 App\Events\MessageSent .................... 70.93ms DONE
-  2025-01-09 09:24:36 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:24:36 App\Events\MessageSent .................... 67.76ms DONE
-  2025-01-09 09:25:27 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:25:27 App\Events\MessageSent .................... 27.60ms DONE
-  2025-01-09 09:26:33 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:26:33 App\Events\MessageSent .................... 81.89ms DONE
-  2025-01-09 09:26:33 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:26:33 App\Events\FetchMessage .................... 5.74ms FAIL
-  2025-01-09 09:26:33 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:26:33 App\Events\FetchMessage .................... 6.53ms FAIL
-  2025-01-09 09:26:33 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:26:33 App\Events\FetchMessage .................... 8.41ms FAIL
-  2025-01-09 09:30:12 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:30:12 App\Events\MessageSent ................... 123.10ms DONE
-  2025-01-09 09:30:12 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:30:12 App\Events\FetchMessage .................... 6.72ms FAIL
-  2025-01-09 09:30:12 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:30:12 App\Events\FetchMessage .................... 6.24ms FAIL
-  2025-01-09 09:30:12 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:30:12 App\Events\FetchMessage .................... 7.55ms FAIL
-  2025-01-09 09:31:16 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:31:16 App\Events\MessageSent .................... 82.22ms DONE
-  2025-01-09 09:31:16 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:31:16 App\Events\FetchMessage .................... 5.19ms FAIL
-  2025-01-09 09:31:16 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:31:16 App\Events\FetchMessage .................... 5.87ms FAIL
-  2025-01-09 09:31:16 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:31:16 App\Events\FetchMessage .................... 5.90ms FAIL
-  2025-01-09 09:34:55 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:34:55 App\Events\MessageSent .................... 91.99ms DONE
-  2025-01-09 09:34:55 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:34:55 App\Events\FetchMessage .................... 2.32ms FAIL
-  2025-01-09 09:34:55 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:34:55 App\Events\FetchMessage .................... 3.15ms FAIL
-  2025-01-09 09:34:55 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:34:55 App\Events\FetchMessage .................... 4.09ms FAIL
-  2025-01-09 09:35:22 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:35:22 App\Events\MessageSent ................... 192.78ms DONE
-  2025-01-09 09:35:22 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:35:22 App\Events\FetchMessage .................... 6.17ms FAIL
-  2025-01-09 09:35:22 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:35:22 App\Events\FetchMessage .................... 6.44ms FAIL
-  2025-01-09 09:35:22 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:35:22 App\Events\FetchMessage .................... 6.15ms FAIL
-  2025-01-09 09:35:52 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:35:53 App\Events\MessageSent .................... 70.39ms DONE
-  2025-01-09 09:35:53 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:35:53 App\Events\FetchMessage ................... 26.62ms FAIL
-  2025-01-09 09:35:53 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:35:53 App\Events\FetchMessage .................... 7.03ms FAIL
-  2025-01-09 09:35:53 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:35:53 App\Events\FetchMessage .................... 6.03ms FAIL
-  2025-01-09 09:37:11 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:37:11 App\Events\MessageSent ................... 112.30ms DONE
-  2025-01-09 09:37:11 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:37:11 App\Events\FetchMessage .................... 6.29ms FAIL
-  2025-01-09 09:37:11 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:37:11 App\Events\FetchMessage .................... 6.20ms FAIL
-  2025-01-09 09:37:11 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:37:11 App\Events\FetchMessage .................... 6.27ms FAIL
-  2025-01-09 09:38:20 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:38:20 App\Events\MessageSent ................... 132.48ms DONE
-  2025-01-09 09:38:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:38:20 App\Events\FetchMessage .................... 5.50ms FAIL
-  2025-01-09 09:38:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:38:20 App\Events\FetchMessage .................... 6.37ms FAIL
-  2025-01-09 09:38:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:38:20 App\Events\FetchMessage .................... 5.89ms FAIL
-  2025-01-09 09:38:29 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:38:29 App\Events\MessageSent .................... 79.74ms DONE
-  2025-01-09 09:38:29 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:38:29 App\Events\FetchMessage .................... 5.58ms FAIL
-  2025-01-09 09:38:29 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:38:29 App\Events\FetchMessage .................... 5.97ms FAIL
-  2025-01-09 09:38:29 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:38:29 App\Events\FetchMessage .................... 6.12ms FAIL
-  2025-01-09 09:42:47 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:42:47 App\Events\MessageSent ................... 162.09ms DONE
-  2025-01-09 09:42:47 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:42:47 App\Events\FetchMessage ................... 56.69ms DONE
-  2025-01-09 09:43:02 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:43:02 App\Events\MessageSent .................... 81.30ms DONE
-  2025-01-09 09:43:02 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:43:02 App\Events\FetchMessage ................... 37.95ms DONE
-  2025-01-09 09:44:35 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:44:35 App\Events\MessageSent .................... 81.01ms DONE
-  2025-01-09 09:44:35 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:44:36 App\Events\FetchMessage ................... 37.62ms DONE
-  2025-01-09 09:44:42 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:44:42 App\Events\MessageSent .................... 80.72ms DONE
-  2025-01-09 09:44:42 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:44:42 App\Events\FetchMessage ................... 40.80ms DONE
-  2025-01-09 09:47:18 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:47:18 App\Events\MessageSent ................... 105.54ms DONE
-  2025-01-09 09:47:18 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:47:18 App\Events\FetchMessage ................... 38.73ms DONE
-  2025-01-09 09:47:48 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:47:48 App\Events\MessageSent .................... 96.48ms DONE
-  2025-01-09 09:47:48 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:47:48 App\Events\FetchMessage ................... 69.00ms DONE
-  2025-01-09 09:48:03 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:48:03 App\Events\MessageSent .................... 95.90ms DONE
-  2025-01-09 09:48:03 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:48:03 App\Events\FetchMessage ................... 68.30ms DONE
-  2025-01-09 09:48:58 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:48:58 App\Events\MessageSent .................... 86.08ms DONE
-  2025-01-09 09:48:58 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:48:58 App\Events\FetchMessage ................... 38.63ms DONE
-  2025-01-09 09:49:01 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:49:01 App\Events\MessageSent .................... 81.66ms DONE
-  2025-01-09 09:49:01 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:49:01 App\Events\FetchMessage ................... 23.81ms DONE
-  2025-01-09 09:53:52 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 09:53:52 App\Events\MessageSent .................... 91.33ms DONE
-  2025-01-09 09:53:52 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 09:53:52 App\Events\FetchMessage ................... 21.43ms DONE
-  2025-01-09 10:02:35 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:02:35 App\Events\MessageSent ................... 107.29ms DONE
-  2025-01-09 10:02:35 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:02:35 App\Events\FetchMessage ................... 37.79ms DONE
-  2025-01-09 10:03:32 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:03:32 App\Events\MessageSent .................... 81.84ms DONE
-  2025-01-09 10:03:32 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:03:33 App\Events\FetchMessage ................... 80.96ms DONE
-  2025-01-09 10:04:54 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:04:54 App\Events\MessageSent ................... 129.77ms DONE
-  2025-01-09 10:04:54 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:04:54 App\Events\FetchMessage ................... 34.01ms DONE
-  2025-01-09 10:07:09 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:07:09 App\Events\MessageSent ................... 126.82ms DONE
-  2025-01-09 10:07:09 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:07:09 App\Events\FetchMessage ................... 33.09ms DONE
-  2025-01-09 10:07:24 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:07:24 App\Events\MessageSent .................... 80.90ms DONE
-  2025-01-09 10:07:24 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:07:24 App\Events\FetchMessage ................... 32.86ms DONE
-  2025-01-09 10:09:49 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:09:49 App\Events\MessageSent ................... 123.45ms DONE
-  2025-01-09 10:09:55 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:09:55 App\Events\MessageSent .................... 81.41ms DONE
-  2025-01-09 10:11:46 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:11:46 App\Events\MessageSent .................... 83.28ms DONE
-  2025-01-09 10:11:46 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:11:46 App\Events\FetchMessage .................... 5.48ms FAIL
-  2025-01-09 10:11:46 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:11:46 App\Events\FetchMessage .................... 3.48ms FAIL
-  2025-01-09 10:11:46 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:11:46 App\Events\FetchMessage .................... 3.92ms FAIL
-  2025-01-09 10:11:52 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:11:52 App\Events\MessageSent ................... 106.13ms DONE
-  2025-01-09 10:11:52 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:11:52 App\Events\FetchMessage .................... 4.27ms FAIL
-  2025-01-09 10:11:52 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:11:52 App\Events\FetchMessage .................... 4.96ms FAIL
-  2025-01-09 10:11:52 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:11:52 App\Events\FetchMessage .................... 4.07ms FAIL
-  2025-01-09 10:12:01 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:12:01 App\Events\MessageSent .................... 83.53ms DONE
-  2025-01-09 10:12:01 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:12:01 App\Events\FetchMessage .................... 4.02ms FAIL
-  2025-01-09 10:12:01 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:12:01 App\Events\FetchMessage .................... 4.67ms FAIL
-  2025-01-09 10:12:01 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:12:01 App\Events\FetchMessage .................... 4.07ms FAIL
-  2025-01-09 10:13:13 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:13:14 App\Events\MessageSent .................... 83.20ms DONE
-  2025-01-09 10:13:14 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:14 App\Events\FetchMessage .................... 3.61ms FAIL
-  2025-01-09 10:13:14 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:14 App\Events\FetchMessage .................... 4.68ms FAIL
-  2025-01-09 10:13:14 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:14 App\Events\FetchMessage .................... 4.06ms FAIL
-  2025-01-09 10:13:20 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:13:20 App\Events\MessageSent .................... 83.48ms DONE
-  2025-01-09 10:13:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:20 App\Events\FetchMessage .................... 4.50ms FAIL
-  2025-01-09 10:13:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:20 App\Events\FetchMessage .................... 4.86ms FAIL
-  2025-01-09 10:13:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:20 App\Events\FetchMessage .................... 4.10ms FAIL
-  2025-01-09 10:13:47 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:13:47 App\Events\MessageSent .................... 81.55ms DONE
-  2025-01-09 10:13:47 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:47 App\Events\FetchMessage .................... 4.32ms FAIL
-  2025-01-09 10:13:47 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:47 App\Events\FetchMessage ................... 26.91ms FAIL
-  2025-01-09 10:13:47 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:47 App\Events\FetchMessage .................... 5.26ms FAIL
-  2025-01-09 10:13:53 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:13:53 App\Events\MessageSent ................... 217.76ms DONE
-  2025-01-09 10:13:53 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:53 App\Events\FetchMessage .................... 4.99ms FAIL
-  2025-01-09 10:13:53 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:53 App\Events\FetchMessage .................... 6.21ms FAIL
-  2025-01-09 10:13:53 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:13:53 App\Events\FetchMessage .................... 4.84ms FAIL
-  2025-01-09 10:20:24 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:20:24 App\Events\MessageSent ................... 113.77ms DONE
-  2025-01-09 10:20:24 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:20:24 App\Events\FetchMessage .................... 5.06ms FAIL
-  2025-01-09 10:20:24 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:20:24 App\Events\FetchMessage .................... 5.09ms FAIL
-  2025-01-09 10:20:24 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:20:24 App\Events\FetchMessage .................... 4.30ms FAIL
-  2025-01-09 10:21:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:21:51 App\Events\MessageSent .................... 82.19ms DONE
-  2025-01-09 10:21:51 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:21:51 App\Events\FetchMessage .................... 4.07ms FAIL
-  2025-01-09 10:21:51 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:21:51 App\Events\FetchMessage .................... 4.46ms FAIL
-  2025-01-09 10:21:51 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:21:51 App\Events\FetchMessage .................... 4.21ms FAIL
-  2025-01-09 10:24:10 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:24:10 App\Events\MessageSent ................... 207.15ms DONE
-  2025-01-09 10:24:10 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:24:10 App\Events\FetchMessage .................... 9.47ms FAIL
-  2025-01-09 10:24:10 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:24:10 App\Events\FetchMessage .................... 7.08ms FAIL
-  2025-01-09 10:24:10 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:24:10 App\Events\FetchMessage .................... 5.83ms FAIL
-  2025-01-09 10:24:49 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:24:49 App\Events\MessageSent .................... 84.38ms DONE
-  2025-01-09 10:24:49 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:24:49 App\Events\FetchMessage .................... 8.00ms FAIL
-  2025-01-09 10:24:49 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:24:49 App\Events\FetchMessage .................... 5.43ms FAIL
-  2025-01-09 10:24:49 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:24:49 App\Events\FetchMessage .................... 4.62ms FAIL
-  2025-01-09 10:25:13 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:25:13 App\Events\MessageSent .................... 88.17ms DONE
-  2025-01-09 10:25:13 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:25:13 App\Events\FetchMessage .................... 5.73ms FAIL
-  2025-01-09 10:25:13 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:25:13 App\Events\FetchMessage .................... 5.45ms FAIL
-  2025-01-09 10:25:13 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:25:13 App\Events\FetchMessage .................... 4.55ms FAIL
-  2025-01-09 10:26:19 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:26:20 App\Events\MessageSent ................... 104.16ms DONE
-  2025-01-09 10:26:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:26:20 App\Events\FetchMessage .................... 5.39ms FAIL
-  2025-01-09 10:26:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:26:20 App\Events\FetchMessage .................... 5.24ms FAIL
-  2025-01-09 10:26:20 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:26:20 App\Events\FetchMessage .................... 4.52ms FAIL
-  2025-01-09 10:27:38 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:27:38 App\Events\MessageSent .................... 81.69ms DONE
-  2025-01-09 10:27:38 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:27:38 App\Events\FetchMessage .................... 4.88ms FAIL
-  2025-01-09 10:27:38 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:27:38 App\Events\FetchMessage .................... 6.20ms FAIL
-  2025-01-09 10:27:38 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:27:38 App\Events\FetchMessage .................... 4.40ms FAIL
-  2025-01-09 10:28:06 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:28:06 App\Events\MessageSent ................... 155.30ms DONE
-  2025-01-09 10:28:06 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:28:06 App\Events\FetchMessage ................... 31.39ms DONE
-  2025-01-09 10:28:33 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:28:33 App\Events\MessageSent ................... 214.10ms DONE
-  2025-01-09 10:28:33 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:28:34 App\Events\FetchMessage ................... 41.95ms DONE
-  2025-01-09 10:30:14 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:30:14 App\Events\MessageSent ................... 245.98ms DONE
-  2025-01-09 10:30:14 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:30:14 App\Events\FetchMessage ................... 73.75ms DONE
-  2025-01-09 10:30:59 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:30:59 App\Events\MessageSent ................... 100.59ms DONE
-  2025-01-09 10:31:44 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:31:44 App\Events\MessageSent .................... 82.79ms DONE
-  2025-01-09 10:31:59 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:32:00 App\Events\MessageSent .................... 87.36ms DONE
-  2025-01-09 10:32:27 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:32:27 App\Events\MessageSent ................... 157.45ms DONE
-  2025-01-09 10:32:45 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:32:45 App\Events\FetchMessage ................... 49.67ms DONE
-  2025-01-09 10:33:15 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:33:15 App\Events\FetchMessage ................... 83.26ms DONE
-  2025-01-09 10:33:24 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:33:24 App\Events\MessageSent .................... 81.75ms DONE
-  2025-01-09 10:33:39 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:33:39 App\Events\MessageSent .................... 82.69ms DONE
-  2025-01-09 10:33:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:33:51 App\Events\MessageSent .................... 81.41ms DONE
-  2025-01-09 10:40:37 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:40:37 App\Events\MessageSent ................... 114.07ms DONE
-  2025-01-09 10:40:46 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:40:46 App\Events\MessageSent .................... 82.85ms DONE
-  2025-01-09 10:41:16 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:41:16 App\Events\FetchMessage ................... 86.34ms DONE
-  2025-01-09 10:41:25 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:41:25 App\Events\MessageSent .................... 85.82ms DONE
-  2025-01-09 10:41:43 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:41:44 App\Events\FetchMessage ................... 94.30ms DONE
-  2025-01-09 10:41:47 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:41:47 App\Events\MessageSent .................... 82.08ms DONE
-  2025-01-09 10:42:14 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:42:14 App\Events\MessageSent .................... 94.24ms DONE
-  2025-01-09 10:43:17 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:43:17 App\Events\MessageSent ................... 104.00ms DONE
-  2025-01-09 10:43:20 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:43:20 App\Events\MessageSent .................... 81.79ms DONE
-  2025-01-09 10:45:17 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:17 App\Events\MessageSent ................... 128.46ms DONE
-  2025-01-09 10:45:17 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:17 App\Events\MessageSent .................... 29.80ms DONE
-  2025-01-09 10:45:17 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:17 App\Events\MessageSent .................... 21.86ms DONE
-  2025-01-09 10:45:17 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:17 App\Events\MessageSent .................... 21.60ms DONE
-  2025-01-09 10:45:17 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:17 App\Events\MessageSent ................... 154.36ms DONE
-  2025-01-09 10:45:20 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:20 App\Events\MessageSent .................... 81.66ms DONE
-  2025-01-09 10:45:38 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:38 App\Events\MessageSent .................... 79.68ms DONE
-  2025-01-09 10:45:41 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:41 App\Events\MessageSent .................... 83.16ms DONE
-  2025-01-09 10:45:44 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:44 App\Events\MessageSent .................... 82.47ms DONE
-  2025-01-09 10:45:47 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:47 App\Events\MessageSent .................... 80.24ms DONE
-  2025-01-09 10:45:47 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:48 App\Events\MessageSent .................... 32.99ms DONE
-  2025-01-09 10:45:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:51 App\Events\MessageSent .................... 82.26ms DONE
-  2025-01-09 10:45:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:51 App\Events\MessageSent .................... 37.26ms DONE
-  2025-01-09 10:45:54 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:45:54 App\Events\MessageSent .................... 83.89ms DONE
-  2025-01-09 10:47:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:47:51 App\Events\MessageSent .................... 80.78ms DONE
-  2025-01-09 10:47:51 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 10:47:51 App\Events\FetchMessage ................... 46.99ms DONE
-  2025-01-09 10:47:54 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:47:54 App\Events\MessageSent .................... 85.53ms DONE
-  2025-01-09 10:58:43 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 10:58:43 App\Events\MessageSent ................... 134.46ms DONE
-  2025-01-09 12:12:06 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:12:06 App\Events\MessageSent .................... 61.06ms DONE
-  2025-01-09 12:24:19 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:24:19 App\Events\MessageSent ................... 176.18ms DONE
-  2025-01-09 12:24:29 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:24:29 App\Events\MessageSent .................... 82.94ms DONE
-  2025-01-09 12:32:08 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:32:08 App\Events\MessageSent ................... 220.71ms DONE
-  2025-01-09 12:32:39 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:32:39 App\Events\MessageSent .................... 89.32ms DONE
-  2025-01-09 12:33:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:33:51 App\Events\MessageSent .................... 81.67ms DONE
-  2025-01-09 12:35:18 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:35:18 App\Events\MessageSent ................... 106.07ms DONE
-  2025-01-09 12:36:52 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:36:53 App\Events\MessageSent ................... 155.46ms DONE
-  2025-01-09 12:36:53 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 12:36:53 App\Events\FetchMessage ................... 45.76ms DONE
-  2025-01-09 12:37:17 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:37:17 App\Events\MessageSent .................... 81.80ms DONE
-  2025-01-09 12:37:17 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 12:37:17 App\Events\FetchMessage .................. 220.07ms DONE
-  2025-01-09 12:38:24 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:38:24 App\Events\MessageSent ................... 142.71ms DONE
-  2025-01-09 12:38:24 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 12:38:24 App\Events\FetchMessage ................... 32.89ms DONE
-  2025-01-09 12:38:45 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:38:45 App\Events\MessageSent .................... 82.95ms DONE
-  2025-01-09 12:38:45 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 12:38:46 App\Events\FetchMessage ................... 39.64ms DONE
-  2025-01-09 12:38:55 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:38:55 App\Events\MessageSent .................... 80.82ms DONE
-  2025-01-09 12:38:55 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 12:38:55 App\Events\FetchMessage ................... 38.71ms DONE
-  2025-01-09 12:39:45 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:39:45 App\Events\MessageSent ................... 123.47ms DONE
-  2025-01-09 12:39:45 App\Events\FetchMessage ........................ RUNNING
-  2025-01-09 12:39:45 App\Events\FetchMessage ................... 22.04ms DONE
-  2025-01-09 12:41:22 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:41:23 App\Events\MessageSent ................... 113.66ms DONE
-  2025-01-09 12:43:26 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:43:26 App\Events\MessageSent ................... 127.22ms DONE
-  2025-01-09 12:43:32 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:43:32 App\Events\MessageSent .................... 81.64ms DONE
-  2025-01-09 12:43:38 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:43:38 App\Events\MessageSent .................... 81.64ms DONE
-  2025-01-09 12:43:47 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 12:43:47 App\Events\MessageSent .................... 82.00ms DONE
-  2025-01-09 13:11:35 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 13:11:35 App\Events\MessageSent .................... 95.12ms DONE
-  2025-01-09 13:14:11 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 13:14:11 App\Events\MessageSent ................... 104.79ms DONE
-  2025-01-09 13:17:53 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 13:17:54 App\Events\MessageSent ................... 129.55ms DONE
-  2025-01-09 13:21:30 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:21:30 App\Events\MessageDeleted ................ 127.45ms DONE
-  2025-01-09 13:23:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 13:23:51 App\Events\MessageSent ................... 104.84ms DONE
-  2025-01-09 13:24:03 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:24:03 App\Events\MessageDeleted ................. 80.75ms DONE
-  2025-01-09 13:28:01 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 13:28:01 App\Events\MessageSent ................... 173.13ms DONE
-  2025-01-09 13:28:04 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:28:04 App\Events\MessageDeleted ................. 21.74ms DONE
-  2025-01-09 13:29:13 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:29:13 App\Events\MessageDeleted ................. 81.47ms DONE
-  2025-01-09 13:29:31 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:29:31 App\Events\MessageDeleted ................. 81.63ms DONE
-  2025-01-09 13:31:29 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:31:29 App\Events\MessageDeleted ................ 140.20ms DONE
-  2025-01-09 13:32:23 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:32:23 App\Events\MessageDeleted ................. 80.98ms DONE
-  2025-01-09 13:33:17 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:33:17 App\Events\MessageDeleted ................. 80.89ms DONE
-  2025-01-09 13:33:59 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:33:59 App\Events\MessageDeleted ................ 100.43ms DONE
-  2025-01-09 13:34:17 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 13:34:17 App\Events\MessageDeleted ................. 83.19ms DONE
-  2025-01-09 14:23:13 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:23:13 App\Events\MessageDeleted ................ 108.18ms DONE
-  2025-01-09 14:24:16 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:24:16 App\Events\MessageDeleted ................ 169.95ms DONE
-  2025-01-09 14:25:07 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:25:07 App\Events\MessageDeleted ................. 23.28ms DONE
-  2025-01-09 14:26:13 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:26:13 App\Events\MessageDeleted ................ 108.11ms DONE
-  2025-01-09 14:29:56 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:29:56 App\Events\MessageDeleted ................ 127.44ms DONE
-  2025-01-09 14:30:05 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:30:05 App\Events\MessageDeleted ................ 162.20ms DONE
-  2025-01-09 14:39:39 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:39:39 App\Events\MessageSent ................... 136.66ms DONE
-  2025-01-09 14:39:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:39:51 App\Events\MessageSent .................... 82.42ms DONE
-  2025-01-09 14:40:15 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:40:16 App\Events\MessageSent ................... 177.40ms DONE
-  2025-01-09 14:40:28 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:40:28 App\Events\MessageSent .................... 82.05ms DONE
-  2025-01-09 14:44:31 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:44:31 App\Events\MessageSent ................... 131.67ms DONE
-  2025-01-09 14:44:52 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:44:52 App\Events\MessageSent .................... 81.68ms DONE
-  2025-01-09 14:45:04 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:45:04 App\Events\MessageSent .................... 81.84ms DONE
-  2025-01-09 14:45:10 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:45:10 App\Events\MessageSent .................... 81.90ms DONE
-  2025-01-09 14:47:08 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:47:08 App\Events\MessageDeleted ................ 126.97ms DONE
-  2025-01-09 14:53:21 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:53:22 App\Events\MessageSent ................... 142.93ms DONE
-  2025-01-09 14:53:28 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 14:53:28 App\Events\MessageSent .................... 80.91ms DONE
-  2025-01-09 14:53:40 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:53:40 App\Events\MessageDeleted ................. 80.92ms DONE
-  2025-01-09 14:53:55 App\Events\MessageDeleted ...................... RUNNING
-  2025-01-09 14:53:55 App\Events\MessageDeleted ................. 22.41ms DONE
-  2025-01-09 15:00:46 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 15:00:47 App\Events\MessageSent ................... 127.13ms DONE
-  2025-01-09 15:02:05 App\Events\MessageSent ......................... RUNNING
-  2025-01-09 15:02:05 App\Events\MessageSent .................... 85.18ms DONE
-  2025-01-10 12:25:50 App\Events\MessageSent ......................... RUNNING
-  2025-01-10 12:25:50 App\Events\MessageSent ................... 117.82ms DONE
-  2025-01-10 12:38:24 App\Events\MessageSent ......................... RUNNING
-  2025-01-10 12:38:24 App\Events\MessageSent ................... 111.33ms DONE
-  2025-01-11 08:37:57 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 08:37:57 App\Events\MessageSent ................... 301.18ms DONE
-  2025-01-11 08:38:03 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 08:38:03 App\Events\MessageSent ................... 101.23ms DONE
-  2025-01-11 09:04:30 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:04:30 App\Events\MessageSent ................... 112.41ms DONE
-  2025-01-11 09:06:54 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:06:54 App\Events\MessageSent ................... 126.44ms DONE
-  2025-01-11 09:13:49 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:13:49 App\Events\MessageSent ................... 125.59ms DONE
-  2025-01-11 09:14:04 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:14:04 App\Events\MessageSent .................... 34.40ms DONE
-  2025-01-11 09:15:19 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:15:19 App\Events\MessageSent .................... 83.73ms DONE
-  2025-01-11 09:22:50 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:22:50 App\Events\MessageSent .................... 90.96ms DONE
-  2025-01-11 09:31:09 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:31:09 App\Events\MessageSent ................... 106.80ms DONE
-  2025-01-11 09:31:18 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:31:18 App\Events\MessageSent .................... 80.44ms DONE
-  2025-01-11 09:34:45 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:34:45 App\Events\MessageSent ................... 108.95ms DONE
-  2025-01-11 09:34:51 App\Events\MessageSent ......................... RUNNING
-  2025-01-11 09:34:51 App\Events\MessageSent .................... 82.70ms DONE
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+42 vendor frames [22m
+
+  43  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+42 vendor frames [22m
+
+  43  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+42 vendor frames [22m
+
+  43  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+40 vendor frames [22m
+
+  41  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+
+   Illuminate\Database\QueryException 
+
+  SQLSTATE[HY000] [2002] Connection refused (Connection: mysql, SQL: select * from `cache` where `key` in (illuminate:queue:restart))
+
+  at /var/www/chat.sxags.com/vendor/laravel/framework/src/Illuminate/Database/Connection.php:825
+    821▕                     $this->getName(), $query, $this->prepareBindings($bindings), $e
+    822▕                 );
+    823▕             }
+    824▕ 
+  ➜ 825▕             throw new QueryException(
+    826▕                 $this->getName(), $query, $this->prepareBindings($bindings), $e
+    827▕             );
+    828▕         }
+    829▕     }
+
+      [2m+42 vendor frames [22m
+
+  43  /var/www/chat.sxags.com/artisan:13
+      Illuminate\Foundation\Application::handleCommand()
+
+  2025-01-17 21:42:58 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 21:42:58 App\Events\MessageSent ................... 110.38ms DONE
+  2025-01-17 21:43:22 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 21:43:22 App\Events\MessageSent .................... 83.07ms DONE
+  2025-01-17 21:44:01 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 21:44:01 App\Events\MessageSent .................... 82.72ms DONE
+  2025-01-17 21:44:25 App\Events\MessageSent ......................... RUNNING
+  2025-01-17 21:44:25 App\Events\MessageSent .................... 96.75ms DONE
+  2025-01-17 21:44:44 App\Events\MessageDeleted ...................... RUNNING
+  2025-01-17 21:44:44 App\Events\MessageDeleted ................. 80.88ms DONE
