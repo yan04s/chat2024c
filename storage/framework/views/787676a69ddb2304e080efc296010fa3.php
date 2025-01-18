@@ -57,7 +57,8 @@
                 <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Schedule Time
+                <?php echo e($m->scheduleAt ? $m->scheduleAt : 'N/A'); ?>
+
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                 <?php echo e($m->created_at); ?>
