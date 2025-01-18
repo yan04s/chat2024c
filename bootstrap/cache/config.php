@@ -516,7 +516,7 @@
   ),
   'mail' => 
   array (
-    'default' => 'log',
+    'default' => 'smtp',
     'mailers' => 
     array (
       'smtp' => 
@@ -524,10 +524,10 @@
         'transport' => 'smtp',
         'scheme' => NULL,
         'url' => NULL,
-        'host' => '127.0.0.1',
-        'port' => '2525',
-        'username' => NULL,
-        'password' => NULL,
+        'host' => 'mail.sxags.com',
+        'port' => '465',
+        'username' => 'noreply@sxags.com',
+        'password' => 'yan',
         'timeout' => NULL,
         'local_domain' => 'chat.sxags.com',
       ),
@@ -578,7 +578,7 @@
     ),
     'from' => 
     array (
-      'address' => 'hello@example.com',
+      'address' => 'noreply@sxags.com',
       'name' => 'Laravel',
     ),
     'markdown' => 

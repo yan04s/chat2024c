@@ -241,7 +241,10 @@
                                     </div>
                                 </div>
                                 <div class="ml-2 p-2 text-white bg-blue-500 rounded-lg row mobile:w-1/3" style="width: 15rem;"
-                                :class="message.scheduleAt ? 'bg-gray-500' : 'bg-blue-500'" >
+                                :class="{
+                                    'bg-gray-500': message.scheduleAt && new Date(message.scheduleAt) > new Date(),
+                                    'bg-blue-500': !message.scheduleAt || new Date(message.scheduleAt) <= new Date()
+                                }">
                                     <p>{{ message.text }}</p>
                                     <span style="float: right;font-size: small;">
                                         {{ formatDateTime(message.scheduleAt || message.created_at) }}
